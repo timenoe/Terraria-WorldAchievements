@@ -1,0 +1,3 @@
+[submodule "TerrariaAchievementLib"]
+	path = TerrariaAchievementLib
+	url = https://github.com/timenoe/TerrariaAchievementLib
