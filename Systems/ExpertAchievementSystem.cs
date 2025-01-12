@@ -7,8 +7,14 @@ using TerrariaAchievementLib.Systems;
 
 namespace ExpertAchievements.Systems
 {
+    /// <summary>
+    /// Adds achievements for Expert Mode to the in-game list
+    /// </summary>
     public class ExpertAchievementSystem : CustomAchievementSystem
     {
+        /// <summary>
+        /// Item IDs for the developer sets
+        /// </summary>
         private static readonly Dictionary<string, int[]> ExpertDevSets = new()
         {
             { "Aaron", [ItemID.AaronsHelmet, ItemID.AaronsBreastplate, ItemID.AaronsLeggings] },
@@ -31,6 +37,9 @@ namespace ExpertAchievements.Systems
             { "Ghostar", [ItemID.GhostarSkullPin, ItemID.GhostarShirt, ItemID.GhostarPants, ItemID.GhostarsWings] }
         };
 
+        /// <summary>
+        /// Item IDs for the Treasure Bags
+        /// </summary>
         private static readonly Dictionary<string, int> ExpertTreasureBags = new()
         {
             { "King Slime", ItemID.KingSlimeBossBag },
@@ -68,6 +77,7 @@ namespace ExpertAchievements.Systems
             List<CustomAchievementCondition> conds;
             ConditionRequirements reqs = new(PlayerDifficulty.Classic, WorldDifficulty.Expert, SpecialSeed.None);
 
+            // Add achievements for the Treasure Bags
             foreach (var bag in ExpertTreasureBags)
             {
                 string boss = bag.Key;
@@ -78,14 +88,17 @@ namespace ExpertAchievements.Systems
                 RegisterCustomAchievement(name, conds, false, AchievementCategory.Slayer);
             }
 
+            // Add achievement for the Minecart upgrade
             name = "MINECART_UPGRADE";
             cond = CustomItemCraftCondition.Craft(reqs, ItemID.MinecartPowerup);
             RegisterCustomAchievement(name, cond, AchievementCategory.Collector);
 
+            // Add achievement for the Mourning Wood mount
             name = "WITCH_BROOM";
             cond = CustomBuffActivateCondition.Activate(reqs, BuffID.WitchBroom);
             RegisterCustomAchievement(name, cond, AchievementCategory.Collector);
 
+            // Add achievements for the developer sets
             foreach (var set in ExpertDevSets)
             {
                 name = $"{set.Key.ToUpper().Replace(" ", "_")}_SET";
