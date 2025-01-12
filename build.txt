@@ -1,0 +1,3 @@
+displayName = Expert Achievements
+author = timenoe
+version = 0.1

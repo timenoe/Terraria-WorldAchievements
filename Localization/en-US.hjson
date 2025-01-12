@@ -1,0 +1,78 @@
+Achievements: {
+	EXPERT_KING_SLIME_BAG_Name: Royal Gel
+	EXPERT_KING_SLIME_BAG_Description: Defeat King Slime in Expert Mode and grab the Treasure Bag.
+	EXPERT_EYE_OF_CTHULHU_BAG_Name: Shield of Cthulhu
+	EXPERT_EYE_OF_CTHULHU_BAG_Description: Defeat Eye of Cthulhu in Expert Mode and grab the Treasure Bag.
+	EXPERT_EATER_OF_WORLDS_BAG_Name: Worm Scarf
+	EXPERT_EATER_OF_WORLDS_BAG_Description: Defeat Eater of Worlds in Expert Mode and grab the Treasure Bag.
+	EXPERT_BRAIN_OF_CTHULHU_BAG_Name: Brain of Confusion
+	EXPERT_BRAIN_OF_CTHULHU_BAG_Description: Defeat Brain of Cthulhu in Expert Mode and grab the Treasure Bag.
+	EXPERT_QUEEN_BEE_BAG_Name: Hive Pack
+	EXPERT_QUEEN_BEE_BAG_Description: Defeat Queen Bee in Expert Mode and grab the Treasure Bag.
+	EXPERT_SKELETRON_BAG_Name: Bone Glove
+	EXPERT_SKELETRON_BAG_Description: Defeat Skeletron in Expert Mode and grab the Treasure Bag.
+	EXPERT_DEERCLOPS_BAG_Name: Bone Helm
+	EXPERT_DEERCLOPS_BAG_Description: Defeat Deerclops in Expert Mode and grab the Treasure Bag.
+	EXPERT_WALL_OF_FLESH_BAG_Name: Demon Heart
+	EXPERT_WALL_OF_FLESH_BAG_Description: Defeat Wall of Flesh in Expert Mode and grab the Treasure Bag.
+	EXPERT_QUEEN_SLIME_BAG_Name: Queen Slime
+	EXPERT_QUEEN_SLIME_BAG_Description: Defeat Queen Slime in Expert Mode and grab the Treasure Bag.
+	EXPERT_DESTROYER_BAG_Name: Mechanical Wagon
+	EXPERT_DESTROYER_BAG_Description: Defeat The Destroyer in Expert Mode and grab the Treasure Bag.
+	EXPERT_TWINS_BAG_Name: Mechanical Wheel
+	EXPERT_TWINS_BAG_Description: Defeat The Twins in Expert Mode and grab the Treasure Bag.
+	EXPERT_SKELETRON_PRIME_BAG_Name: Mechanical Battery
+	EXPERT_SKELETRON_PRIME_BAG_Description: Defeat Skeletron Prime in Expert Mode and grab the Treasure Bag.
+	EXPERT_PLANTERA_BAG_Name: Spore Sac
+	EXPERT_PLANTERA_BAG_Description: Defeat Plantera in Expert Mode and grab the Treasure Bag.
+	EXPERT_GOLEM_BAG_Name: Shiny Stone
+	EXPERT_GOLEM_BAG_Description: Defeat Golem in Expert Mode and grab the Treasure Bag.
+	EXPERT_EMPRESS_OF_LIGHT_BAG_Name: Volatile Gelatin
+	EXPERT_EMPRESS_OF_LIGHT_BAG_Description: Defeat Empress of Light in Expert Mode and grab the Treasure Bag.
+	EXPERT_DUKE_FISHRON_BAG_Name: Shrimpy Truffle
+	EXPERT_DUKE_FISHRON_BAG_Description: Defeat Duke Fishron in Expert Mode and grab the Treasure Bag.
+	EXPERT_MOON_LORD_BAG_Name: Gravity Globe
+	EXPERT_MOON_LORD_BAG_Description: Defeat Moon Lord in Expert Mode and grab the Treasure Bag.
+	EXPERT_BETSY_BAG_Name: Old One's Treasure
+	EXPERT_BETSY_BAG_Description: Defeat Betsy in Expert Mode and grab the Treasure Bag.
+	EXPERT_MINECART_UPGRADE_Name: Free Mechanical Cart Included!
+	EXPERT_MINECART_UPGRADE_Description: Craft the Minecart Upgrade Kit.
+	EXPERT_WITCH_BROOM_Name: Witching Spark of Inspiration!
+	EXPERT_WITCH_BROOM_Description: Summon the Witch's Broom mount.
+	EXPERT_AARON_SET_Name: Stay Grounded
+	EXPERT_AARON_SET_Description: Obtain all 3 pieces of Aaron's developer set.
+	EXPERT_ARKHALIS_SET_Name: Off the Grid
+	EXPERT_ARKHALIS_SET_Description: Obtain all 5 pieces of Arkhalis' developer set.
+	EXPERT_CENX_SET_Name: Queen of Terraria
+	EXPERT_CENX_SET_Description: Obtain all 4 pieces of Cenx's developer set.
+	EXPERT_CENX_DRESS_SET_Name: Alter Ego
+	EXPERT_CENX_DRESS_SET_Description: Obtain all 4 pieces of Cenx's Dress developer set.
+	EXPERT_CROWNO_SET_Name: Master of Dark Skies
+	EXPERT_CROWNO_SET_Description: Obtain all 4 pieces of Crowno's developer
+	EXPERT_D-TOWN_SET_Name: Strictly Business
+	EXPERT_D-TOWN_SET_Description: Obtain all 4 pieces of D-Town's developer set.
+	EXPERT_JIM_SET_Name: Caped Leggings
+	EXPERT_JIM_SET_Description: Obtain all 4 pieces of Jim's developer set.
+	EXPERT_LAZURE_SET_Name: Ride the Lightning
+	EXPERT_LAZURE_SET_Description: Obtain all 4 pieces of Lazure's developer set.
+	EXPERT_LEINFOR_SET_Name: Bringing Sexy Back
+	EXPERT_LEINFOR_SET_Description: Obtain all 5 pieces of Leinfor's developer set.
+	EXPERT_LOKI_SET_Name: The Art of War
+	EXPERT_LOKI_SET_Description: Obtain all 5 pieces of Loki's developer set.
+	EXPERT_RED_SET_Name: Dark Knight
+	EXPERT_RED_SET_Description: Obtain all 5 pieces of Red's developer set.
+	EXPERT_SKIPHS_SET_Name: Polar Plunge
+	EXPERT_SKIPHS_SET_Description: Obtain all 5 pieces of Skiphs' developer set.
+	EXPERT_WILL_SET_Name: Charging In
+	EXPERT_WILL_SET_Description: Obtain all 4 pieces of Will's developer set.
+	EXPERT_YORAIZ0R_SET_Name: Menacing Presence
+	EXPERT_YORAIZ0R_SET_Description: Obtain all 5 pieces of Yoraiz0r's developer set.
+	EXPERT_GROX_THE_GREAT_SET_Name: Angry Pirate
+	EXPERT_GROX_THE_GREAT_SET_Description: Obtain all 4 pieces of Grox The Great's developer set.
+	EXPERT_FOODBARBARIAN_SET_Name: Safety First
+	EXPERT_FOODBARBARIAN_SET_Description: Obtain all 4 pieces of FoodBarbarian's developer set.
+	EXPERT_SAFEMAN_SET_Name: Bright Idea
+	EXPERT_SAFEMAN_SET_Description: Obtain all 4 pieces of Safeman's developer set.
+	EXPERT_GHOSTAR_SET_Name: Take the First Step
+	EXPERT_GHOSTAR_SET_Description: Obtain all 4 pieces of Ghostar's developer set.
+}

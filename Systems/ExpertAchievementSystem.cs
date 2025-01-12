@@ -1,0 +1,97 @@
+﻿using System.Collections.Generic;
+using Terraria.Achievements;
+using Terraria.ID;
+using TerrariaAchievementLib.Achievements.Conditions;
+using TerrariaAchievementLib.Achievements;
+using TerrariaAchievementLib.Systems;
+
+namespace ExpertAchievements.Systems
+{
+    public class ExpertAchievementSystem : CustomAchievementSystem
+    {
+        private static readonly Dictionary<string, int[]> ExpertDevSets = new()
+        {
+            { "Aaron", [ItemID.AaronsHelmet, ItemID.AaronsBreastplate, ItemID.AaronsLeggings] },
+            { "Arkhalis", [ItemID.ArkhalisHat, ItemID.ArkhalisShirt, ItemID.ArkhalisPants, ItemID.ArkhalisWings, ItemID.Arkhalis] },
+            { "Cenx", [ItemID.CenxsTiara, ItemID.CenxsBreastplate, ItemID.CenxsLeggings, ItemID.CenxsWings] },
+            { "Cenx Dress", [ItemID.CenxsTiara, ItemID.CenxsDress, ItemID.CenxsDressPants, ItemID.CenxsWings] },
+            { "Crowno", [ItemID.CrownosMask, ItemID.CrownosBreastplate, ItemID.CrownosLeggings, ItemID.CrownosWings] },
+            { "D-Town", [ItemID.DTownsHelmet, ItemID.DTownsBreastplate, ItemID.DTownsLeggings, ItemID.DTownsWings] },
+            { "Jim", [ItemID.JimsHelmet, ItemID.JimsBreastplate, ItemID.JimsLeggings, ItemID.JimsWings] },
+            { "Lazure", [ItemID.BejeweledValkyrieHead, ItemID.BejeweledValkyrieBody, ItemID.BejeweledValkyrieWing, ItemID.ValkyrieYoyo] },
+            { "Leinfor", [ItemID.LeinforsHat, ItemID.LeinforsShirt, ItemID.LeinforsPants, ItemID.LeinforsAccessory, ItemID.LeinforsWings] },
+            { "Loki", [ItemID.LokisHelm, ItemID.LokisShirt, ItemID.LokisPants, ItemID.LokisWings, ItemID.LokisDye] },
+            { "Red", [ItemID.RedsHelmet, ItemID.RedsBreastplate, ItemID.RedsLeggings, ItemID.RedsWings, ItemID.RedsYoyo] },
+            { "Skiphs", [ItemID.SkiphsHelm, ItemID.SkiphsShirt, ItemID.SkiphsPants, ItemID.SkiphsWings, ItemID.DevDye] },
+            { "Will", [ItemID.WillsHelmet, ItemID.WillsBreastplate, ItemID.WillsLeggings, ItemID.WillsWings] },
+            { "Yoraiz0r", [ItemID.Yoraiz0rHead, ItemID.Yoraiz0rShirt, ItemID.Yoraiz0rPants, ItemID.Yoraiz0rDarkness, ItemID.Yoraiz0rWings] },
+            { "Grox The Great", [ItemID.GroxTheGreatHelm, ItemID.GroxTheGreatArmor, ItemID.GroxTheGreatGreaves, ItemID.GroxTheGreatWings] },
+            { "FoodBarbarian", [ItemID.FoodBarbarianHelm, ItemID.FoodBarbarianArmor, ItemID.FoodBarbarianGreaves, ItemID.FoodBarbarianWings] },
+            { "Safeman", [ItemID.SafemanSunHair, ItemID.SafemanSunDress, ItemID.SafemanDressLeggings, ItemID.SafemanWings] },
+            { "Ghostar", [ItemID.GhostarSkullPin, ItemID.GhostarShirt, ItemID.GhostarPants, ItemID.GhostarsWings] }
+        };
+
+        private static readonly Dictionary<string, int> ExpertTreasureBags = new()
+        {
+            { "King Slime", ItemID.KingSlimeBossBag },
+            { "Eye of Cthulhu", ItemID.EyeOfCthulhuBossBag },
+            { "Eater of Worlds", ItemID.EaterOfWorldsBossBag },
+            { "Brain of Cthulhu", ItemID.BrainOfCthulhuBossBag },
+            { "Queen Bee", ItemID.QueenBeeBossBag },
+            { "Skeletron", ItemID.SkeletronBossBag },
+            { "Deerclops", ItemID.DeerclopsBossBag },
+            { "Wall of Flesh", ItemID.WallOfFleshBossBag },
+            { "Queen Slime", ItemID.QueenSlimeBossBag },
+            { "Destroyer", ItemID.DestroyerBossBag },
+            { "Twins", ItemID.TwinsBossBag },
+            { "Skeletron Prime", ItemID.SkeletronPrimeBossBag },
+            { "Plantera", ItemID.PlanteraBossBag },
+            { "Golem", ItemID.GolemBossBag },
+            { "Duke Fishron", ItemID.FishronBossBag },
+            { "Empress of Light", ItemID.FairyQueenBossBag },
+            // { "Lunatic Cultist", ItemID.CultistBossBag },
+            { "Moon Lord", ItemID.MoonLordBossBag },
+            // { "Dark Mage (T3)", ItemID.BossBagDarkMage },
+            // { "Ogre (T3)", ItemID.BossBagOgre },
+            { "Betsy", ItemID.BossBagBetsy }
+        };
+
+
+        protected override string Identifier { get => "EXPERT"; }
+
+        protected override string TexturePath { get => "ExpertAchievements/Assets/Achievements"; }
+
+        protected override void RegisterCustomAchievements()
+        {
+            string name;
+            CustomAchievementCondition cond;
+            List<CustomAchievementCondition> conds;
+            ConditionRequirements reqs = new(PlayerDifficulty.Classic, WorldDifficulty.Expert, SpecialSeed.None);
+
+            foreach (var bag in ExpertTreasureBags)
+            {
+                string boss = bag.Key;
+                name = $"{boss.ToUpper().Replace(" ", "_")}_BAG";
+                conds = [];
+                conds.Add(CustomNpcKillCondition.KillAny(reqs, AchievementData.DefeatBossIds[boss]));
+                conds.Add(CustomItemGrabCondition.Grab(reqs, bag.Value));
+                RegisterCustomAchievement(name, conds, false, AchievementCategory.Slayer);
+            }
+
+            name = "MINECART_UPGRADE";
+            cond = CustomItemCraftCondition.Craft(reqs, ItemID.MinecartPowerup);
+            RegisterCustomAchievement(name, cond, AchievementCategory.Collector);
+
+            name = "WITCH_BROOM";
+            cond = CustomBuffActivateCondition.Activate(reqs, BuffID.WitchBroom);
+            RegisterCustomAchievement(name, cond, AchievementCategory.Collector);
+
+            foreach (var set in ExpertDevSets)
+            {
+                name = $"{set.Key.ToUpper().Replace(" ", "_")}_SET";
+                conds = CustomItemGrabCondition.GrabAll(reqs, set.Value);
+                RegisterCustomAchievement(name, conds, true, AchievementCategory.Collector);
+            }
+        }
+    }
+}
