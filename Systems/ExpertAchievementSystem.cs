@@ -10,7 +10,7 @@ namespace ExpertAchievements.Systems
     /// <summary>
     /// Adds achievements for Expert Mode to the in-game list
     /// </summary>
-    public class ExpertAchievementSystem : CustomAchievementSystem
+    public class ExpertAchievementSystem : AchievementSystem
     {
         /// <summary>
         /// Item IDs for the developer sets
@@ -70,12 +70,12 @@ namespace ExpertAchievements.Systems
 
         protected override string TexturePath { get => "ExpertAchievements/Assets/Achievements"; }
 
-        protected override void RegisterCustomAchievements()
+        protected override void RegisterAchievements()
         {
             string name;
-            CustomAchievementCondition cond;
-            List<CustomAchievementCondition> conds;
-            ConditionRequirements reqs = new(PlayerDifficulty.Classic, WorldDifficulty.Expert, SpecialSeed.None);
+            AchCondition cond;
+            List<AchCondition> conds;
+            ConditionReqs reqs = new(PlayerDiff.Classic, WorldDiff.Expert, SpecialSeed.None);
 
             // Add achievements for the Treasure Bags
             foreach (var bag in ExpertTreasureBags)
@@ -83,27 +83,27 @@ namespace ExpertAchievements.Systems
                 string boss = bag.Key;
                 name = $"{boss.ToUpper().Replace(" ", "_")}_BAG";
                 conds = [];
-                conds.Add(CustomNpcKillCondition.KillAny(reqs, AchievementData.DefeatBossIds[boss]));
-                conds.Add(CustomItemGrabCondition.Grab(reqs, bag.Value));
-                RegisterCustomAchievement(name, conds, false, AchievementCategory.Slayer);
+                conds.Add(NpcKillCondition.KillAny(reqs, AchData.DefeatBossIds[boss]));
+                conds.Add(ItemGrabCondition.Grab(reqs, bag.Value));
+                RegisterAchievement(name, conds, false, AchievementCategory.Slayer);
             }
 
             // Add achievement for the Minecart upgrade
             name = "MINECART_UPGRADE";
-            cond = CustomItemCraftCondition.Craft(reqs, ItemID.MinecartPowerup);
-            RegisterCustomAchievement(name, cond, AchievementCategory.Collector);
+            cond = ItemCraftCondition.Craft(reqs, ItemID.MinecartPowerup);
+            RegisterAchievement(name, cond, AchievementCategory.Collector);
 
             // Add achievement for the Mourning Wood mount
             name = "WITCH_BROOM";
-            cond = CustomBuffActivateCondition.Activate(reqs, BuffID.WitchBroom);
-            RegisterCustomAchievement(name, cond, AchievementCategory.Collector);
+            cond = BuffAddCondition.Add(reqs, BuffID.WitchBroom);
+            RegisterAchievement(name, cond, AchievementCategory.Collector);
 
             // Add achievements for the developer sets
             foreach (var set in ExpertDevSets)
             {
                 name = $"{set.Key.ToUpper().Replace(" ", "_")}_SET";
-                conds = CustomItemGrabCondition.GrabAll(reqs, set.Value);
-                RegisterCustomAchievement(name, conds, true, AchievementCategory.Collector);
+                conds = ItemGrabCondition.GrabAll(reqs, set.Value);
+                RegisterAchievement(name, conds, true, AchievementCategory.Collector);
             }
         }
     }
