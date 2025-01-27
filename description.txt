@@ -1,1 +1,7 @@
-Adds achievements for Expert Mode to the in-game list.
+Adds achievements for world difficulties/special seeds to the in-game list.
+
+Rules:
+- No Celebrationmk10 Seed
+- No Journey Mode
+
+Contribute language localization here: https://github.com/timenoe/Terraria-WorldAchievements
