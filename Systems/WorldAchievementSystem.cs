@@ -19,6 +19,9 @@ namespace WorldAchievements.Systems
 
         protected override void RegisterAchievements()
         {
+            // Block the use of certain items based on the current world progression
+            AchProgression.SetEnabled(true);
+            
             ConditionReqs expertReqs = new(PlayerDiff.Classic, WorldDiff.Expert, SpecialSeed.None);
             RegisterExpertBossAchievements(expertReqs);
             RegisterExpertDevSetAchievements(expertReqs);
