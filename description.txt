@@ -1,5 +1,7 @@
 Adds achievements for world difficulties/special seeds to the in-game list.
 
+This mod blocks the use of certain items based on the current world progression (e.g. you can't use post-Moon Lord items before defeating Moon Lord, etc.).
+
 Rules:
 - No Celebrationmk10 Seed
 - No Journey Mode
