@@ -1,40 +1,40 @@
 Achievements: {
 	WORLD_EXPERT_KING_SLIME_Name: Royal Gel
-	WORLD_EXPERT_KING_SLIME_Description: Defeat King Slime on Expert Mode.
+	WORLD_EXPERT_KING_SLIME_Description: Defeat King Slime on Expert Mode for the first time.
 	WORLD_EXPERT_EYE_OF_CTHULHU_Name: Shield of Cthulhu
-	WORLD_EXPERT_EYE_OF_CTHULHU_Description: Defeat Eye of Cthulhu on Expert Mode.
+	WORLD_EXPERT_EYE_OF_CTHULHU_Description: Defeat Eye of Cthulhu on Expert Mode for the first time.
 	WORLD_EXPERT_EATER_OF_WORLDS_Name: Worm Scarf
-	WORLD_EXPERT_EATER_OF_WORLDS_Description: Defeat Eater of Worlds on Expert Mode.
+	WORLD_EXPERT_EATER_OF_WORLDS_Description: Defeat Eater of Worlds on Expert Mode for the first time.
 	WORLD_EXPERT_BRAIN_OF_CTHULHU_Name: Brain of Confusion
-	WORLD_EXPERT_BRAIN_OF_CTHULHU_Description: Defeat Brain of Cthulhu on Expert Mode.
+	WORLD_EXPERT_BRAIN_OF_CTHULHU_Description: Defeat Brain of Cthulhu on Expert Mode for the first time.
 	WORLD_EXPERT_QUEEN_BEE_Name: Hive Pack
-	WORLD_EXPERT_QUEEN_BEE_Description: Defeat Queen Bee on Expert Mode.
+	WORLD_EXPERT_QUEEN_BEE_Description: Defeat Queen Bee on Expert Mode for the first time.
 	WORLD_EXPERT_SKELETRON_Name: Bone Glove
-	WORLD_EXPERT_SKELETRON_Description: Defeat Skeletron on Expert Mode.
+	WORLD_EXPERT_SKELETRON_Description: Defeat Skeletron on Expert Mode for the first time.
 	WORLD_EXPERT_DEERCLOPS_Name: Bone Helm
-	WORLD_EXPERT_DEERCLOPS_Description: Defeat Deerclops on Expert Mode.
+	WORLD_EXPERT_DEERCLOPS_Description: Defeat Deerclops on Expert Mode for the first time.
 	WORLD_EXPERT_WALL_OF_FLESH_Name: Demon Heart
-	WORLD_EXPERT_WALL_OF_FLESH_Description: Defeat Wall of Flesh on Expert Mode.
+	WORLD_EXPERT_WALL_OF_FLESH_Description: Defeat Wall of Flesh on Expert Mode for the first time.
 	WORLD_EXPERT_QUEEN_SLIME_Name: Queen Slime
-	WORLD_EXPERT_QUEEN_SLIME_Description: Defeat Queen Slime on Expert Mode.
+	WORLD_EXPERT_QUEEN_SLIME_Description: Defeat Queen Slime on Expert Mode for the first time.
 	WORLD_EXPERT_TWINS_Name: Mechanical Wheel
-	WORLD_EXPERT_TWINS_Description: Defeat The Twins on Expert Mode.
+	WORLD_EXPERT_TWINS_Description: Defeat The Twins on Expert Mode for the first time.
 	WORLD_EXPERT_DESTROYER_Name: Mechanical Wagon
-	WORLD_EXPERT_DESTROYER_Description: Defeat The Destroyer on Expert Mode.
+	WORLD_EXPERT_DESTROYER_Description: Defeat The Destroyer on Expert Mode for the first time.
 	WORLD_EXPERT_SKELETRON_PRIME_Name: Mechanical Battery
-	WORLD_EXPERT_SKELETRON_PRIME_Description: Defeat Skeletron Prime on Expert Mode.
+	WORLD_EXPERT_SKELETRON_PRIME_Description: Defeat Skeletron Prime on Expert Mode for the first time.
 	WORLD_EXPERT_PLANTERA_Name: Spore Sac
-	WORLD_EXPERT_PLANTERA_Description: Defeat Plantera on Expert Mode.
+	WORLD_EXPERT_PLANTERA_Description: Defeat Plantera on Expert Mode for the first time.
 	WORLD_EXPERT_GOLEM_Name: Shiny Stone
-	WORLD_EXPERT_GOLEM_Description: Defeat Golem on Expert Mode.
+	WORLD_EXPERT_GOLEM_Description: Defeat Golem on Expert Mode for the first time.
 	WORLD_EXPERT_EMPRESS_OF_LIGHT_Name: Shrimpy Truffle
-	WORLD_EXPERT_EMPRESS_OF_LIGHT_Description: Defeat Empress of Light on Expert Mode.
+	WORLD_EXPERT_EMPRESS_OF_LIGHT_Description: Defeat Empress of Light on Expert Mode for the first time.
 	WORLD_EXPERT_DUKE_FISHRON_Name: Volatile Gelatin
-	WORLD_EXPERT_DUKE_FISHRON_Description: Defeat Duke Fishron on Expert Mode.
+	WORLD_EXPERT_DUKE_FISHRON_Description: Defeat Duke Fishron on Expert Mode for the first time.
 	WORLD_EXPERT_MOON_LORD_Name: Gravity Globe
-	WORLD_EXPERT_MOON_LORD_Description: Defeat Moon Lord on Expert Mode.
+	WORLD_EXPERT_MOON_LORD_Description: Defeat Moon Lord on Expert Mode for the first time.
 	WORLD_EXPERT_BETSY_Name: Old One's Treasure
-	WORLD_EXPERT_BETSY_Description: Defeat Betsy on Expert Mode.
+	WORLD_EXPERT_BETSY_Description: Defeat Betsy on Expert Mode for the first time.
 	WORLD_EXPERT_SET_AARON_Name: Stay Grounded
 	WORLD_EXPERT_SET_AARON_Description: Obtain all 3 Aaron's set pieces.
 	WORLD_EXPERT_SET_ARKHALIS_Name: Off the Grid
@@ -78,61 +78,61 @@ Achievements: {
 	WORLD_EXPERT_WITCH_BROOM_Name: Witching Spark of Inspiration!
 	WORLD_EXPERT_WITCH_BROOM_Description: Summon a Witch's Broom.
 	WORLD_MASTER_KING_SLIME_Name: King Slime Relic
-	WORLD_MASTER_KING_SLIME_Description: Defeat King Slime on Master Mode.
+	WORLD_MASTER_KING_SLIME_Description: Defeat King Slime on Master Mode for the first time.
 	WORLD_MASTER_EYE_OF_CTHULHU_Name: Eye of Cthulhu Relic
-	WORLD_MASTER_EYE_OF_CTHULHU_Description: Defeat Eye of Cthulhu on Master Mode.
+	WORLD_MASTER_EYE_OF_CTHULHU_Description: Defeat Eye of Cthulhu on Master Mode for the first time.
 	WORLD_MASTER_EATER_OF_WORLDS_Name: Eater of Worlds Relic
-	WORLD_MASTER_EATER_OF_WORLDS_Description: Defeat Eater of Worlds on Master Mode.
+	WORLD_MASTER_EATER_OF_WORLDS_Description: Defeat Eater of Worlds on Master Mode for the first time.
 	WORLD_MASTER_BRAIN_OF_CTHULHU_Name: Brain of Cthulhu Relic
-	WORLD_MASTER_BRAIN_OF_CTHULHU_Description: Defeat Brain of Cthulhu on Master Mode.
+	WORLD_MASTER_BRAIN_OF_CTHULHU_Description: Defeat Brain of Cthulhu on Master Mode for the first time.
 	WORLD_MASTER_QUEEN_BEE_Name: Queen Bee Relic
-	WORLD_MASTER_QUEEN_BEE_Description: Defeat Queen Bee on Master Mode.
+	WORLD_MASTER_QUEEN_BEE_Description: Defeat Queen Bee on Master Mode for the first time.
 	WORLD_MASTER_SKELETRON_Name: Skeletron Relic
-	WORLD_MASTER_SKELETRON_Description: Defeat Skeletron on Master Mode.
+	WORLD_MASTER_SKELETRON_Description: Defeat Skeletron on Master Mode for the first time.
 	WORLD_MASTER_DEERCLOPS_Name: Deerclops Relic
-	WORLD_MASTER_DEERCLOPS_Description: Defeat Deerclops on Master Mode.
+	WORLD_MASTER_DEERCLOPS_Description: Defeat Deerclops on Master Mode for the first time.
 	WORLD_MASTER_WALL_OF_FLESH_Name: Wall of Flesh Relic
-	WORLD_MASTER_WALL_OF_FLESH_Description: Defeat Wall of Flesh on Master Mode.
+	WORLD_MASTER_WALL_OF_FLESH_Description: Defeat Wall of Flesh on Master Mode for the first time.
 	WORLD_MASTER_QUEEN_SLIME_Name: Queen Slime Relic
-	WORLD_MASTER_QUEEN_SLIME_Description: Defeat Queen Slime on Master Mode.
+	WORLD_MASTER_QUEEN_SLIME_Description: Defeat Queen Slime on Master Mode for the first time.
 	WORLD_MASTER_TWINS_Name: The Twins Relic
-	WORLD_MASTER_TWINS_Description: Defeat The Twins on Master Mode.
+	WORLD_MASTER_TWINS_Description: Defeat The Twins on Master Mode for the first time.
 	WORLD_MASTER_DESTROYER_Name: The Destroyer Relic
-	WORLD_MASTER_DESTROYER_Description: Defeat The Destroyer on Master Mode.
+	WORLD_MASTER_DESTROYER_Description: Defeat The Destroyer on Master Mode for the first time.
 	WORLD_MASTER_SKELETRON_PRIME_Name: Skeletron Prime Relic
-	WORLD_MASTER_SKELETRON_PRIME_Description: Defeat Skeletron Prime on Master Mode.
+	WORLD_MASTER_SKELETRON_PRIME_Description: Defeat Skeletron Prime on Master Mode for the first time.
 	WORLD_MASTER_PLANTERA_Name: Plantera Relic
-	WORLD_MASTER_PLANTERA_Description: Defeat Plantera on Master Mode.
+	WORLD_MASTER_PLANTERA_Description: Defeat Plantera on Master Mode for the first time.
 	WORLD_MASTER_GOLEM_Name: Golem Relic
-	WORLD_MASTER_GOLEM_Description: Defeat Golem on Master Mode.
+	WORLD_MASTER_GOLEM_Description: Defeat Golem on Master Mode for the first time.
 	WORLD_MASTER_EMPRESS_OF_LIGHT_Name: Empress of Light Relic
-	WORLD_MASTER_EMPRESS_OF_LIGHT_Description: Defeat Empress of Light on Master Mode.
+	WORLD_MASTER_EMPRESS_OF_LIGHT_Description: Defeat Empress of Light on Master Mode for the first time.
 	WORLD_MASTER_DUKE_FISHRON_Name: Duke Fishron Relic
-	WORLD_MASTER_DUKE_FISHRON_Description: Defeat Duke Fishron on Master Mode.
+	WORLD_MASTER_DUKE_FISHRON_Description: Defeat Duke Fishron on Master Mode for the first time.
 	WORLD_MASTER_LUNATIC_CULTIST_Name: Lunatic Cultist Relic
-	WORLD_MASTER_LUNATIC_CULTIST_Description: Defeat Lunatic Cultist on Master Mode.
+	WORLD_MASTER_LUNATIC_CULTIST_Description: Defeat Lunatic Cultist on Master Mode for the first time.
 	WORLD_MASTER_MOON_LORD_Name: Moon Lord Relic
-	WORLD_MASTER_MOON_LORD_Description: Defeat Moon Lord on Master Mode.
+	WORLD_MASTER_MOON_LORD_Description: Defeat Moon Lord on Master Mode for the first time.
 	WORLD_MASTER_MOURNING_WOOD_Name: Mourning Wood Relic
-	WORLD_MASTER_MOURNING_WOOD_Description: Defeat Mourning Wood on Master Mode.
+	WORLD_MASTER_MOURNING_WOOD_Description: Defeat Mourning Wood on Master Mode for the first time.
 	WORLD_MASTER_PUMPKING_Name: Pumpking Relic
-	WORLD_MASTER_PUMPKING_Description: Defeat Pumpking on Master Mode.
+	WORLD_MASTER_PUMPKING_Description: Defeat Pumpking on Master Mode for the first time.
 	WORLD_MASTER_EVERSCREAM_Name: Everscream Relic
-	WORLD_MASTER_EVERSCREAM_Description: Defeat Everscream on Master Mode.
+	WORLD_MASTER_EVERSCREAM_Description: Defeat Everscream on Master Mode for the first time.
 	WORLD_MASTER_SANTA-NK1_Name: Santa-NK1 Relic
-	WORLD_MASTER_SANTA-NK1_Description: Defeat Santa-NK1 on Master Mode.
+	WORLD_MASTER_SANTA-NK1_Description: Defeat Santa-NK1 on Master Mode for the first time.
 	WORLD_MASTER_ICE_QUEEN_Name: Ice Queen Relic
-	WORLD_MASTER_ICE_QUEEN_Description: Defeat Ice Queen on Master Mode.
+	WORLD_MASTER_ICE_QUEEN_Description: Defeat Ice Queen on Master Mode for the first time.
 	WORLD_MASTER_DARK_MAGE_T3_Name: Dark Mage Relic
-	WORLD_MASTER_DARK_MAGE_T3_Description: Defeat Dark Mage (Tier 3) on Master Mode.
+	WORLD_MASTER_DARK_MAGE_T3_Description: Defeat Dark Mage (Tier 3) on Master Mode for the first time.
 	WORLD_MASTER_OGRE_T3_Name: Ogre Relic
-	WORLD_MASTER_OGRE_T3_Description: Defeat Ogre (Tier 3) on Master Mode.
+	WORLD_MASTER_OGRE_T3_Description: Defeat Ogre (Tier 3) on Master Mode for the first time.
 	WORLD_MASTER_BETSY_Name: Betsy Relic
-	WORLD_MASTER_BETSY_Description: Defeat Betsy on Master Mode.
+	WORLD_MASTER_BETSY_Description: Defeat Betsy on Master Mode for the first time.
 	WORLD_MASTER_FLYING_DUTCHMAN_Name: Flying Dutchman Relic
-	WORLD_MASTER_FLYING_DUTCHMAN_Description: Defeat Flying Dutchman on Master Mode.
+	WORLD_MASTER_FLYING_DUTCHMAN_Description: Defeat Flying Dutchman on Master Mode for the first time.
 	WORLD_MASTER_MARTIAN_SAUCER_Name: Martian Saucer Relic
-	WORLD_MASTER_MARTIAN_SAUCER_Description: Defeat Martian Saucer on Master Mode.
+	WORLD_MASTER_MARTIAN_SAUCER_Description: Defeat Martian Saucer on Master Mode for the first time.
 	WORLD_MASTER_PET_KING_SLIME_Name: Royal Delight
 	WORLD_MASTER_PET_KING_SLIME_Description: Summon the Slime Prince pet.
 	WORLD_MASTER_PET_EYE_OF_CTHULHU_Name: Suspicious Grinning Eye
@@ -190,65 +190,69 @@ Achievements: {
 	WORLD_MASTER_PET_MARTIAN_SAUCER_Name: Cosmic Skateboard
 	WORLD_MASTER_PET_MARTIAN_SAUCER_Description: Summon the Alien Skater pet.
 	WORLD_MASTER_RESPLENDENT_DESSERT_Name: Dessert Duo
-	WORLD_MASTER_RESPLENDENT_DESSERT_Description: Craft the Resplendent Dessert.
+	WORLD_MASTER_RESPLENDENT_DESSERT_Description: Craft a Resplendent Dessert.
+	WORLD_LEGENDARY_KING_SLIME_Name: Slimy King Slayer
+	WORLD_LEGENDARY_KING_SLIME_Description: Defeat King Slime on Legendary Mode for the first time.
+	WORLD_LEGENDARY_EYE_OF_CTHULHU_Name: The One Who Stares Back
+	WORLD_LEGENDARY_EYE_OF_CTHULHU_Description: Defeat Eye of Cthulhu on Legendary Mode for the first time.
+	WORLD_LEGENDARY_EATER_OF_WORLDS_Name: Worm Hole
+	WORLD_LEGENDARY_EATER_OF_WORLDS_Description: Defeat Eater of Worlds on Legendary Mode for the first time.
+	WORLD_LEGENDARY_BRAIN_OF_CTHULHU_Name: Mind Over Matter
+	WORLD_LEGENDARY_BRAIN_OF_CTHULHU_Description: Defeat Brain of Cthulhu on Legendary Mode for the first time.
+	WORLD_LEGENDARY_QUEEN_BEE_Name: Hive Mind
+	WORLD_LEGENDARY_QUEEN_BEE_Description: Defeat Queen Bee on Legendary Mode for the first time.
+	WORLD_LEGENDARY_SKELETRON_Name: Bone to Pick
+	WORLD_LEGENDARY_SKELETRON_Description: Defeat Skeletron on Legendary Mode for the first time.
+	WORLD_LEGENDARY_DEERCLOPS_Name: Hunting Season
+	WORLD_LEGENDARY_DEERCLOPS_Description: Defeat Deerclops on Legendary Mode for the first time.
+	WORLD_LEGENDARY_WALL_OF_FLESH_Name: Beyond the Wall
+	WORLD_LEGENDARY_WALL_OF_FLESH_Description: Defeat Wall of Flesh on Legendary Mode for the first time.
+	WORLD_LEGENDARY_QUEEN_SLIME_Name: Slimy Queen Slayer
+	WORLD_LEGENDARY_QUEEN_SLIME_Description: Defeat Queen Slime on Legendary Mode for the first time.
+	WORLD_LEGENDARY_TWINS_Name: Double Trouble
+	WORLD_LEGENDARY_TWINS_Description: Defeat The Twins on Legendary Mode for the first time.
+	WORLD_LEGENDARY_DESTROYER_Name: Bane of the Mechanical Beast
+	WORLD_LEGENDARY_DESTROYER_Description: Defeat The Destroyer on Legendary Mode for the first time.
+	WORLD_LEGENDARY_SKELETRON_PRIME_Name: Prime Time
+	WORLD_LEGENDARY_SKELETRON_PRIME_Description: Defeat Skeletron Prime on Legendary Mode for the first time.
+	WORLD_LEGENDARY_PLANTERA_Name: Flower of Doom
+	WORLD_LEGENDARY_PLANTERA_Description: Defeat Plantera on Legendary Mode for the first time.
+	WORLD_LEGENDARY_GOLEM_Name: Brick Breaker
+	WORLD_LEGENDARY_GOLEM_Description: Defeat Golem on Legendary Mode for the first time.
+	WORLD_LEGENDARY_EMPRESS_OF_LIGHT_Name: Radiance Extinguished
+	WORLD_LEGENDARY_EMPRESS_OF_LIGHT_Description: Defeat Empress of Light on Legendary Mode for the first time.
+	WORLD_LEGENDARY_DUKE_FISHRON_Name: Fish Filet
+	WORLD_LEGENDARY_DUKE_FISHRON_Description: Defeat Duke Fishron on Legendary Mode for the first time.
+	WORLD_LEGENDARY_LUNATIC_CULTIST_Name: Cult of Destruction
+	WORLD_LEGENDARY_LUNATIC_CULTIST_Description: Defeat Lunatic Cultist on Legendary Mode for the first time.
+	WORLD_LEGENDARY_MOON_LORD_Name: Lunar Obliterator
+	WORLD_LEGENDARY_MOON_LORD_Description: Defeat Moon Lord on Legendary Mode for the first time.
+	WORLD_LEGENDARY_MOURNING_WOOD_Name: Wood Chipper
+	WORLD_LEGENDARY_MOURNING_WOOD_Description: Defeat Mourning Wood on Legendary Mode for the first time.
+	WORLD_LEGENDARY_PUMPKING_Name: Fall's Final Harvest
+	WORLD_LEGENDARY_PUMPKING_Description: Defeat Pumpking on Legendary Mode for the first time.
+	WORLD_LEGENDARY_EVERSCREAM_Name: Silent Night
+	WORLD_LEGENDARY_EVERSCREAM_Description: Defeat Everscream on Legendary Mode for the first time.
+	WORLD_LEGENDARY_SANTA-NK1_Name: Krampus Has Nothing on You
+	WORLD_LEGENDARY_SANTA-NK1_Description: Defeat Santa-NK1 on Legendary Mode for the first time.
+	WORLD_LEGENDARY_ICE_QUEEN_Name: Frostbitten Throne
+	WORLD_LEGENDARY_ICE_QUEEN_Description: Defeat Ice Queen on Legendary Mode for the first time.
+	WORLD_LEGENDARY_DARK_MAGE_T3_Name: Master of the Dark Arts
+	WORLD_LEGENDARY_DARK_MAGE_T3_Description: Defeat Dark Mage (Tier 3) on Legendary Mode for the first time.
+	WORLD_LEGENDARY_OGRE_T3_Name: Ogre Overload
+	WORLD_LEGENDARY_OGRE_T3_Description: Defeat Ogre (Tier 3) on Legendary Mode for the first time.
+	WORLD_LEGENDARY_BETSY_Name: Dungeon Defender
+	WORLD_LEGENDARY_BETSY_Description: Defeat Betsy on Legendary Mode for the first time.
+	WORLD_LEGENDARY_FLYING_DUTCHMAN_Name: Break the Curse
+	WORLD_LEGENDARY_FLYING_DUTCHMAN_Description: Defeat Flying Dutchman on Legendary Mode for the first time.
+	WORLD_LEGENDARY_MARTIAN_SAUCER_Name: To the Junkyard
+	WORLD_LEGENDARY_MARTIAN_SAUCER_Description: Defeat Martian Saucer on Legendary Mode for the first time.
 	WORLD_SEED_MOON_LORD_LEGS_Name: These Might Be Steve’s
 	WORLD_SEED_MOON_LORD_LEGS_Description: Obtain some Moon Lord Legs.
+	WORLD_SEED_RED_POTION_BAD_Name: You Are Not Worthy
+	WORLD_SEED_RED_POTION_BAD_Description: Drink a Red Potion while not in a For the Worthy world.
+	WORLD_SEED_RED_POTION_GOOD_Name: You Are Worthy
+	WORLD_SEED_RED_POTION_GOOD_Description: Drink a Red Potion while in a For The Worthy world.
 	WORLD_SEED_WAFFLES_IRON_Name: It's Waffle Time!
 	WORLD_SEED_WAFFLES_IRON_Description: Obtain Waffle's Iron from Mechdusa.
-	WORLD_LEGENDARY_KING_SLIME_Name: Slimy King Slayer
-	WORLD_LEGENDARY_KING_SLIME_Description: Defeat King Slime on Legendary Mode.
-	WORLD_LEGENDARY_EYE_OF_CTHULHU_Name: The One Who Stares Back
-	WORLD_LEGENDARY_EYE_OF_CTHULHU_Description: Defeat Eye of Cthulhu on Legendary Mode.
-	WORLD_LEGENDARY_EATER_OF_WORLDS_Name: Worm Hole
-	WORLD_LEGENDARY_EATER_OF_WORLDS_Description: Defeat Eater of Worlds on Legendary Mode.
-	WORLD_LEGENDARY_BRAIN_OF_CTHULHU_Name: Mind Over Matter
-	WORLD_LEGENDARY_BRAIN_OF_CTHULHU_Description: Defeat Brain of Cthulhu on Legendary Mode.
-	WORLD_LEGENDARY_QUEEN_BEE_Name: Hive Mind
-	WORLD_LEGENDARY_QUEEN_BEE_Description: Defeat Queen Bee on Legendary Mode.
-	WORLD_LEGENDARY_SKELETRON_Name: Bone to Pick
-	WORLD_LEGENDARY_SKELETRON_Description: Defeat Skeletron on Legendary Mode.
-	WORLD_LEGENDARY_DEERCLOPS_Name: Hunting Season
-	WORLD_LEGENDARY_DEERCLOPS_Description: Defeat Deerclops on Legendary Mode.
-	WORLD_LEGENDARY_WALL_OF_FLESH_Name: Beyond the Wall
-	WORLD_LEGENDARY_WALL_OF_FLESH_Description: Defeat Wall of Flesh on Legendary Mode.
-	WORLD_LEGENDARY_QUEEN_SLIME_Name: Slimy Queen Slayer
-	WORLD_LEGENDARY_QUEEN_SLIME_Description: Defeat Queen Slime on Legendary Mode.
-	WORLD_LEGENDARY_TWINS_Name: Double Trouble
-	WORLD_LEGENDARY_TWINS_Description: Defeat The Twins on Legendary Mode.
-	WORLD_LEGENDARY_DESTROYER_Name: Bane of the Mechanical Beast
-	WORLD_LEGENDARY_DESTROYER_Description: Defeat The Destroyer on Legendary Mode.
-	WORLD_LEGENDARY_SKELETRON_PRIME_Name: Prime Time
-	WORLD_LEGENDARY_SKELETRON_PRIME_Description: Defeat Skeletron Prime on Legendary Mode.
-	WORLD_LEGENDARY_PLANTERA_Name: Flower of Doom
-	WORLD_LEGENDARY_PLANTERA_Description: Defeat Plantera on Legendary Mode.
-	WORLD_LEGENDARY_GOLEM_Name: Brick Breaker
-	WORLD_LEGENDARY_GOLEM_Description: Defeat Golem on Legendary Mode.
-	WORLD_LEGENDARY_EMPRESS_OF_LIGHT_Name: Radiance Extinguished
-	WORLD_LEGENDARY_EMPRESS_OF_LIGHT_Description: Defeat Empress of Light on Legendary Mode.
-	WORLD_LEGENDARY_DUKE_FISHRON_Name: Fish Filet
-	WORLD_LEGENDARY_DUKE_FISHRON_Description: Defeat Duke Fishron on Legendary Mode.
-	WORLD_LEGENDARY_LUNATIC_CULTIST_Name: Cult of Destruction
-	WORLD_LEGENDARY_LUNATIC_CULTIST_Description: Defeat Lunatic Cultist on Legendary Mode.
-	WORLD_LEGENDARY_MOON_LORD_Name: Lunar Obliterator
-	WORLD_LEGENDARY_MOON_LORD_Description: Defeat Moon Lord on Legendary Mode.
-	WORLD_LEGENDARY_MOURNING_WOOD_Name: Wood Chipper
-	WORLD_LEGENDARY_MOURNING_WOOD_Description: Defeat Mourning Wood on Legendary Mode.
-	WORLD_LEGENDARY_PUMPKING_Name: Fall's Final Harvest
-	WORLD_LEGENDARY_PUMPKING_Description: Defeat Pumpking on Legendary Mode.
-	WORLD_LEGENDARY_EVERSCREAM_Name: Silent Night
-	WORLD_LEGENDARY_EVERSCREAM_Description: Defeat Everscream on Legendary Mode.
-	WORLD_LEGENDARY_SANTA-NK1_Name: Krampus Has Nothing on You
-	WORLD_LEGENDARY_SANTA-NK1_Description: Defeat Santa-NK1 on Legendary Mode.
-	WORLD_LEGENDARY_ICE_QUEEN_Name: Frostbitten Throne
-	WORLD_LEGENDARY_ICE_QUEEN_Description: Defeat Ice Queen on Legendary Mode.
-	WORLD_LEGENDARY_DARK_MAGE_T3_Name: Master of the Dark Arts
-	WORLD_LEGENDARY_DARK_MAGE_T3_Description: Defeat Dark Mage (Tier 3) on Legendary Mode.
-	WORLD_LEGENDARY_OGRE_T3_Name: Ogre Overload
-	WORLD_LEGENDARY_OGRE_T3_Description: Defeat Ogre (Tier 3) on Legendary Mode.
-	WORLD_LEGENDARY_BETSY_Name: Dungeon Defender
-	WORLD_LEGENDARY_BETSY_Description: Defeat Betsy on Legendary Mode.
-	WORLD_LEGENDARY_FLYING_DUTCHMAN_Name: Break the Curse
-	WORLD_LEGENDARY_FLYING_DUTCHMAN_Description: Defeat Flying Dutchman on Legendary Mode.
-	WORLD_LEGENDARY_MARTIAN_SAUCER_Name: To the Junkyard
-	WORLD_LEGENDARY_MARTIAN_SAUCER_Description: Defeat Martian Saucer on Legendary Mode.
 }

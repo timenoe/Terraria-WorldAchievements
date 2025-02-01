@@ -16,6 +16,7 @@ namespace WorldAchievements.Systems
 
         protected override List<string> TexturePaths { get => ["WorldAchievements/Assets/Achievements-1", "WorldAchievements/Assets/Achievements-2"]; }
 
+
         protected override void RegisterAchievements()
         {
             ConditionReqs expertReqs = new(PlayerDiff.Classic, WorldDiff.Expert, SpecialSeed.None);
@@ -28,10 +29,16 @@ namespace WorldAchievements.Systems
             RegisterMasterBossPetAchievements(masterReqs);
             RegisterMasterItemAchievements(masterReqs);
 
+            ConditionReqs legendaryReqs = new(PlayerDiff.Classic, WorldDiff.Master, SpecialSeed.Worthy);
+            RegisterLegendaryBossAchievements(legendaryReqs);
+
             RegisterSeedItemAchievements();
-            RegisterLegendaryBossAchievements();
         }
 
+        /// <summary>
+        /// Register Expert Mode boss achievements
+        /// </summary>
+        /// <param name="reqs">Common achievement requirements</param>
         private void RegisterExpertBossAchievements(ConditionReqs reqs)
         {
             Dictionary<string, int> TreasureBags = new()
@@ -56,10 +63,15 @@ namespace WorldAchievements.Systems
                 { "EXPERT_BETSY", ItemID.BossBagBetsy }
             };
 
+            // Kill Expert Mode bosses for the first time
             foreach (var bag in TreasureBags)
-                RegisterAchievement(bag.Key, NpcDropCondition.Drop(reqs, NPCID.None, bag.Value), AchievementCategory.Slayer);
+                RegisterAchievement(bag.Key, NpcKillCondition.KillAny(reqs, true, AchData.DefeatBoss[bag.Key.Split("EXPERT_")[1]]), AchievementCategory.Slayer);
         }
 
+        /// <summary>
+        /// Register Expert Mode developer set achievements
+        /// </summary>
+        /// <param name="reqs">Common achievement requirements</param>
         private void RegisterExpertDevSetAchievements(ConditionReqs reqs)
         {
             Dictionary<string, int[]> DevSets = new()
@@ -84,10 +96,15 @@ namespace WorldAchievements.Systems
                 { "EXPERT_SET_GHOSTAR", [ItemID.GhostarSkullPin, ItemID.GhostarShirt, ItemID.GhostarPants, ItemID.GhostarsWings] }
             };
 
+            // Open Expert Mode developer sets from Treasure Bags
             foreach (var set in DevSets)
                 RegisterAchievement(set.Key, ItemOpenCondition.OpenAll(reqs, ItemID.None, set.Value), set.Value.Length > 1, AchievementCategory.Collector);
         }
 
+        /// <summary>
+        /// Register Expert Mode item achievements
+        /// </summary>
+        /// <param name="reqs">Common achievement requirements</param>
         private void RegisterExpertItemAchievements(ConditionReqs reqs)
         {
             RegisterAchievement("EXPERT_DEMON_HEART", ItemUseCondition.Use(reqs, ItemID.DemonHeart), AchievementCategory.Collector);
@@ -95,6 +112,10 @@ namespace WorldAchievements.Systems
             RegisterAchievement("EXPERT_WITCH_BROOM", BuffAddCondition.Add(reqs, BuffID.WitchBroom), AchievementCategory.Collector);
         }
 
+        /// <summary>
+        /// Register Master Mode boss achievements
+        /// </summary>
+        /// <param name="reqs">Common achievement requirements</param>
         private void RegisterMasterBossAchievements(ConditionReqs reqs)
         {
             Dictionary<string, int> Relics = new()
@@ -129,10 +150,15 @@ namespace WorldAchievements.Systems
                 { "MASTER_MARTIAN_SAUCER", ItemID.UFOMasterTrophy }
             };
 
+            // Kill Master Mode bosses for the first time
             foreach (var relic in Relics)
-                RegisterAchievement(relic.Key, NpcDropCondition.Drop(reqs, ItemID.None, relic.Value), AchievementCategory.Collector);
+                RegisterAchievement(relic.Key, NpcKillCondition.KillAny(reqs, true, AchData.DefeatBoss[relic.Key.Split("MASTER_")[1]]), AchievementCategory.Slayer);
         }
 
+        /// <summary>
+        /// Register Master Mode boss pet achievements
+        /// </summary>
+        /// <param name="reqs">Common achievement requirements</param>
         private void RegisterMasterBossPetAchievements(ConditionReqs reqs)
         {
             Dictionary<string, int> MasterPets = new()
@@ -167,25 +193,25 @@ namespace WorldAchievements.Systems
                 { "MASTER_PET_MARTIAN_SAUCER", BuffID.MartianPet }
             };
 
+            // Use Master Mode boss pets
             foreach (var pet in MasterPets)
                 RegisterAchievement(pet.Key, BuffAddCondition.Add(reqs, pet.Value), AchievementCategory.Collector);
         }
 
+        /// <summary>
+        /// Register Master Mode item achievements
+        /// </summary>
+        /// <param name="reqs">Common achievement requirements</param>
         private void RegisterMasterItemAchievements(ConditionReqs reqs)
         {
             RegisterAchievement("MASTER_RESPLENDENT_DESSERT", ItemCraftCondition.Craft(reqs, ItemID.ResplendentDessert), AchievementCategory.Collector);
         }
 
-        private void RegisterSeedItemAchievements()
-        {
-            ConditionReqs moonLordLegsReqs = new(PlayerDiff.Classic, WorldDiff.Classic, SpecialSeed.Drunk);
-            RegisterAchievement("SEED_MOON_LORD_LEGS", ItemGrabCondition.Grab(moonLordLegsReqs, ItemID.MoonLordLegs), AchievementCategory.Collector);
-
-            ConditionReqs wafflesIronReqs = new(PlayerDiff.Classic, WorldDiff.Classic, SpecialSeed.Zenith);
-            RegisterAchievement("SEED_WAFFLES_IRON", NpcDropCondition.Drop(wafflesIronReqs, NPCID.None, ItemID.WaffleIron), AchievementCategory.Collector);
-        }
-
-        private void RegisterLegendaryBossAchievements()
+        /// <summary>
+        /// Register Legendary Mode boss achievements
+        /// </summary>
+        /// <param name="reqs">Common achievement requirements</param>
+        private void RegisterLegendaryBossAchievements(ConditionReqs reqs)
         {
             Dictionary<string, int> Relics = new()
             {
@@ -219,9 +245,29 @@ namespace WorldAchievements.Systems
                 { "LEGENDARY_MARTIAN_SAUCER", ItemID.UFOMasterTrophy }
             };
 
-            ConditionReqs legendaryReqs = new(PlayerDiff.Classic, WorldDiff.Master, SpecialSeed.Worthy);
+            // Kill Legendary Mode bosses for the first time
             foreach (var relic in Relics)
-                RegisterAchievement(relic.Key, NpcDropCondition.Drop(legendaryReqs, ItemID.None, relic.Value), AchievementCategory.Collector);
+                RegisterAchievement(relic.Key, NpcKillCondition.KillAny(reqs, true, AchData.DefeatBoss[relic.Key.Split("LEGENDARY_")[1]]), AchievementCategory.Slayer);
+        }
+
+        /// <summary>
+        /// Register seed item achievements
+        /// </summary>
+        private void RegisterSeedItemAchievements()
+        {
+            ConditionReqs moonLordLegsReqs = new(PlayerDiff.Classic, WorldDiff.Classic, SpecialSeed.Drunk);
+            RegisterAchievement("SEED_MOON_LORD_LEGS", ItemGrabCondition.Grab(moonLordLegsReqs, ItemID.MoonLordLegs), AchievementCategory.Collector);
+
+            // Drink Red Potion when not worthy
+            ConditionReqs redPotionBadReqs = new(PlayerDiff.Classic, WorldDiff.Classic, SpecialSeed.Unworthy);
+            RegisterAchievement("SEED_RED_POTION_BAD", ItemUseCondition.Use(redPotionBadReqs, ItemID.RedPotion), AchievementCategory.Collector);
+
+            // Drink Red Potion when worthy
+            ConditionReqs redPotionGoodReqs = new(PlayerDiff.Classic, WorldDiff.Classic, SpecialSeed.Worthy);
+            RegisterAchievement("SEED_RED_POTION_GOOD", ItemUseCondition.Use(redPotionGoodReqs, ItemID.RedPotion), AchievementCategory.Collector);
+
+            ConditionReqs wafflesIronReqs = new(PlayerDiff.Classic, WorldDiff.Classic, SpecialSeed.Zenith);
+            RegisterAchievement("SEED_WAFFLES_IRON", NpcDropCondition.Drop(wafflesIronReqs, NPCID.None, ItemID.WaffleIron), AchievementCategory.Collector);
         }
     }
 }
