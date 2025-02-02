@@ -1,4 +1,4 @@
-Adds achievements for world difficulties/special seeds to the in-game list.
+Adds achievements for world modes/special seeds to the in-game list.
 
 Rules:
 - No Celebrationmk10 Seed

@@ -35,7 +35,10 @@ namespace WorldAchievements.Systems
             ConditionReqs legendaryReqs = new(PlayerDiff.Classic, WorldDiff.Master, SpecialSeed.Worthy);
             RegisterLegendaryBossAchievements(legendaryReqs);
 
-            RegisterSeedItemAchievements();
+            ConditionReqs zenithReqs = new(PlayerDiff.Classic, WorldDiff.Classic, SpecialSeed.Zenith);
+            RegisterZenithBossAchievements(zenithReqs);
+
+            RegisterMiscSeedItemAchievements();
         }
 
         /// <summary>
@@ -66,9 +69,11 @@ namespace WorldAchievements.Systems
                 { "EXPERT_BETSY", ItemID.BossBagBetsy }
             };
 
+            string[] ExpertBosses = ["KING_SLIME", "EYE_OF_CTHULHU", "EATER_OF_WORLDS", "BRAIN_OF_CTHULHU", "QUEEN_BEE", "SKELETRON", "DEERCLOPS", "WALL_OF_FLESH", "QUEEN_SLIME", "TWINS", "DESTROYER", "SKELETRON_PRIME", "PLANTERA", "GOLEM", "EMPRESS_OF_LIGHT", "DUKE_FISHRON", "MOON_LORD", "BETSY"];
+
             // Kill Expert Mode bosses for the first time
-            foreach (var bag in TreasureBags)
-                RegisterAchievement(bag.Key, NpcKillCondition.KillAny(reqs, true, AchData.DefeatBoss[bag.Key.Split("EXPERT_")[1]]), AchievementCategory.Slayer);
+            foreach (var boss in ExpertBosses)
+                RegisterAchievement($"EXPERT_{boss}", NpcKillCondition.KillAny(reqs, true, AchData.DefeatBoss[boss]), AchievementCategory.Slayer);
         }
 
         /// <summary>
@@ -153,9 +158,11 @@ namespace WorldAchievements.Systems
                 { "MASTER_MARTIAN_SAUCER", ItemID.UFOMasterTrophy }
             };
 
+            string[] MasterBosses = ["KING_SLIME", "EYE_OF_CTHULHU", "EATER_OF_WORLDS", "BRAIN_OF_CTHULHU", "QUEEN_BEE", "SKELETRON", "DEERCLOPS", "WALL_OF_FLESH", "QUEEN_SLIME", "TWINS", "DESTROYER", "SKELETRON_PRIME", "PLANTERA", "GOLEM", "EMPRESS_OF_LIGHT", "DUKE_FISHRON", "LUNATIC_CULTIST", "MOON_LORD", "MOURNING_WOOD", "PUMPKING", "EVERSCREAM", "SANTA-NK1", "ICE_QUEEN", "DARK_MAGE_T3", "OGRE_T3", "BETSY", "FLYING_DUTCHMAN", "MARTIAN_SAUCER"];
+
             // Kill Master Mode bosses for the first time
-            foreach (var relic in Relics)
-                RegisterAchievement(relic.Key, NpcKillCondition.KillAny(reqs, true, AchData.DefeatBoss[relic.Key.Split("MASTER_")[1]]), AchievementCategory.Slayer);
+            foreach (var boss in MasterBosses)
+                RegisterAchievement($"MASTER_{boss}", NpcKillCondition.KillAny(reqs, true, AchData.DefeatBoss[boss]), AchievementCategory.Slayer);
         }
 
         /// <summary>
@@ -216,47 +223,42 @@ namespace WorldAchievements.Systems
         /// <param name="reqs">Common achievement requirements</param>
         private void RegisterLegendaryBossAchievements(ConditionReqs reqs)
         {
-            Dictionary<string, int> Relics = new()
-            {
-                { "LEGENDARY_KING_SLIME", ItemID.KingSlimeMasterTrophy },
-                { "LEGENDARY_EYE_OF_CTHULHU", ItemID.EyeofCthulhuMasterTrophy },
-                { "LEGENDARY_EATER_OF_WORLDS", ItemID.EaterofWorldsMasterTrophy },
-                { "LEGENDARY_BRAIN_OF_CTHULHU", ItemID.BrainofCthulhuMasterTrophy },
-                { "LEGENDARY_QUEEN_BEE", ItemID.QueenBeeMasterTrophy },
-                { "LEGENDARY_SKELETRON", ItemID.SkeletronMasterTrophy },
-                { "LEGENDARY_DEERCLOPS", ItemID.DeerclopsMasterTrophy },
-                { "LEGENDARY_WALL_OF_FLESH", ItemID.WallofFleshMasterTrophy },
-                { "LEGENDARY_QUEEN_SLIME", ItemID.QueenSlimeMasterTrophy },
-                { "LEGENDARY_TWINS", ItemID.TwinsMasterTrophy },
-                { "LEGENDARY_DESTROYER", ItemID.DestroyerMasterTrophy },
-                { "LEGENDARY_SKELETRON_PRIME", ItemID.SkeletronPrimeMasterTrophy },
-                { "LEGENDARY_PLANTERA", ItemID.PlanteraMasterTrophy },
-                { "LEGENDARY_GOLEM", ItemID.GolemMasterTrophy },
-                { "LEGENDARY_EMPRESS_OF_LIGHT", ItemID.FairyQueenMasterTrophy },
-                { "LEGENDARY_DUKE_FISHRON", ItemID.DukeFishronMasterTrophy },
-                { "LEGENDARY_LUNATIC_CULTIST", ItemID.LunaticCultistMasterTrophy },
-                { "LEGENDARY_MOON_LORD", ItemID.MoonLordMasterTrophy },
-                { "LEGENDARY_MOURNING_WOOD", ItemID.MourningWoodMasterTrophy },
-                { "LEGENDARY_PUMPKING", ItemID.PumpkingMasterTrophy },
-                { "LEGENDARY_EVERSCREAM", ItemID.EverscreamMasterTrophy },
-                { "LEGENDARY_SANTA-NK1", ItemID.SantankMasterTrophy },
-                { "LEGENDARY_ICE_QUEEN", ItemID.IceQueenMasterTrophy },
-                { "LEGENDARY_DARK_MAGE_T3", ItemID.DarkMageMasterTrophy },
-                { "LEGENDARY_OGRE_T3", ItemID.OgreMasterTrophy },
-                { "LEGENDARY_BETSY", ItemID.BetsyMasterTrophy },
-                { "LEGENDARY_FLYING_DUTCHMAN", ItemID.FlyingDutchmanMasterTrophy },
-                { "LEGENDARY_MARTIAN_SAUCER", ItemID.UFOMasterTrophy }
-            };
+            string[] LegendaryBosses = ["KING_SLIME", "EYE_OF_CTHULHU", "EATER_OF_WORLDS", "BRAIN_OF_CTHULHU", "QUEEN_BEE", "SKELETRON", "DEERCLOPS", "WALL_OF_FLESH", "QUEEN_SLIME", "TWINS", "DESTROYER", "SKELETRON_PRIME", "PLANTERA", "GOLEM", "EMPRESS_OF_LIGHT", "DUKE_FISHRON", "LUNATIC_CULTIST", "MOON_LORD", "MOURNING_WOOD", "PUMPKING", "EVERSCREAM", "SANTA-NK1", "ICE_QUEEN", "DARK_MAGE_T3", "OGRE_T3", "BETSY", "FLYING_DUTCHMAN", "MARTIAN_SAUCER"];
 
             // Kill Legendary Mode bosses for the first time
-            foreach (var relic in Relics)
-                RegisterAchievement(relic.Key, NpcKillCondition.KillAny(reqs, true, AchData.DefeatBoss[relic.Key.Split("LEGENDARY_")[1]]), AchievementCategory.Slayer);
+            foreach (var boss in LegendaryBosses)
+                RegisterAchievement($"LEGENDARY_{boss}", NpcKillCondition.KillAny(reqs, true, AchData.DefeatBoss[boss]), AchievementCategory.Slayer);
+        }
+
+        /// <summary>
+        /// Register Legendary Mode boss achievements
+        /// </summary>
+        /// <param name="reqs">Common achievement requirements</param>
+        private void RegisterZenithBossAchievements(ConditionReqs reqs)
+        {
+            string[] ZenithBosses = ["KING_SLIME", "EYE_OF_CTHULHU", "EATER_OF_WORLDS", "BRAIN_OF_CTHULHU", "QUEEN_BEE", "SKELETRON", "DEERCLOPS", "WALL_OF_FLESH", "QUEEN_SLIME", "MECHDUSA", "PLANTERA", "GOLEM", "EMPRESS_OF_LIGHT", "DUKE_FISHRON", "LUNATIC_CULTIST", "MOON_LORD", "MOURNING_WOOD", "PUMPKING", "EVERSCREAM", "SANTA-NK1", "ICE_QUEEN", "DARK_MAGE_T3", "OGRE_T3", "BETSY", "FLYING_DUTCHMAN", "MARTIAN_SAUCER"];
+
+            // Kill Zenith seed bosses for the first time
+            foreach (var boss in ZenithBosses)
+            {
+                if (boss == "MECHDUSA")
+                {
+                    List<AchCondition> conds = [];
+                    conds.Add(NpcKillCondition.KillAny(reqs, true, [NPCID.Retinazer, NPCID.Spazmatism]));
+                    conds.Add(NpcKillCondition.Kill(reqs, true, NPCID.TheDestroyer));
+                    conds.Add(NpcKillCondition.Kill(reqs, true, NPCID.SkeletronPrime));
+                    RegisterAchievement($"ZENITH_{boss}", conds, false, AchievementCategory.Slayer);
+                }
+                
+                else
+                    RegisterAchievement($"ZENITH_{boss}", NpcKillCondition.KillAny(reqs, true, AchData.DefeatBoss[boss]), AchievementCategory.Slayer);
+            }
         }
 
         /// <summary>
         /// Register seed item achievements
         /// </summary>
-        private void RegisterSeedItemAchievements()
+        private void RegisterMiscSeedItemAchievements()
         {
             ConditionReqs moonLordLegsReqs = new(PlayerDiff.Classic, WorldDiff.Classic, SpecialSeed.Drunk);
             RegisterAchievement("SEED_MOON_LORD_LEGS", ItemGrabCondition.Grab(moonLordLegsReqs, ItemID.MoonLordLegs), AchievementCategory.Collector);
@@ -268,9 +270,6 @@ namespace WorldAchievements.Systems
             // Drink Red Potion when worthy
             ConditionReqs redPotionGoodReqs = new(PlayerDiff.Classic, WorldDiff.Classic, SpecialSeed.Worthy);
             RegisterAchievement("SEED_RED_POTION_GOOD", ItemUseCondition.Use(redPotionGoodReqs, ItemID.RedPotion), AchievementCategory.Collector);
-
-            ConditionReqs wafflesIronReqs = new(PlayerDiff.Classic, WorldDiff.Classic, SpecialSeed.Zenith);
-            RegisterAchievement("SEED_WAFFLES_IRON", NpcDropCondition.Drop(wafflesIronReqs, NPCID.None, ItemID.WaffleIron), AchievementCategory.Collector);
         }
     }
 }

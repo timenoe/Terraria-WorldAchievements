@@ -247,12 +247,62 @@ Achievements: {
 	WORLD_LEGENDARY_FLYING_DUTCHMAN_Description: Defeat Flying Dutchman on Legendary Mode for the first time.
 	WORLD_LEGENDARY_MARTIAN_SAUCER_Name: To the Junkyard
 	WORLD_LEGENDARY_MARTIAN_SAUCER_Description: Defeat Martian Saucer on Legendary Mode for the first time.
+	WORLD_ZENITH_KING_SLIME_Name: Slime Crown
+	WORLD_ZENITH_KING_SLIME_Description: Defeat King Slime on the Zenith seed for the first time.
+	WORLD_ZENITH_EYE_OF_CTHULHU_Name: Suspicious Looking Eye
+	WORLD_ZENITH_EYE_OF_CTHULHU_Description: Defeat Eye of Cthulhu on the Zenith seed for the first time.
+	WORLD_ZENITH_EATER_OF_WORLDS_Name: Worm Food
+	WORLD_ZENITH_EATER_OF_WORLDS_Description: Defeat Eater of Worlds on the Zenith seed for the first time.
+	WORLD_ZENITH_BRAIN_OF_CTHULHU_Name: Bloody Spine
+	WORLD_ZENITH_BRAIN_OF_CTHULHU_Description: Defeat Brain of Cthulhu on the Zenith seed for the first time.
+	WORLD_ZENITH_QUEEN_BEE_Name: Abeemination
+	WORLD_ZENITH_QUEEN_BEE_Description: Defeat Queen Bee on the Zenith seed for the first time.
+	WORLD_ZENITH_SKELETRON_Name: Guardian's Grave
+	WORLD_ZENITH_SKELETRON_Description: Defeat Skeletron on the Zenith seed for the first time.
+	WORLD_ZENITH_DEERCLOPS_Name: Deer Thing
+	WORLD_ZENITH_DEERCLOPS_Description: Defeat Deerclops on the Zenith seed for the first time.
+	WORLD_ZENITH_WALL_OF_FLESH_Name: Voodoo Magic
+	WORLD_ZENITH_WALL_OF_FLESH_Description: Defeat Wall of Flesh on the Zenith seed for the first time.
+	WORLD_ZENITH_QUEEN_SLIME_Name: Crystal Chronicles
+	WORLD_ZENITH_QUEEN_SLIME_Description: Defeat Queen Slime on the Zenith seed for the first time.
+	WORLD_ZENITH_MECHDUSA_Name: It's Waffle Time!
+	WORLD_ZENITH_MECHDUSA_Description: Defeat Mechdusa on the Zenith seed for the first time.
+	WORLD_ZENITH_PLANTERA_Name: Bulb Buster
+	WORLD_ZENITH_PLANTERA_Description: Defeat Plantera on the Zenith seed for the first time.
+	WORLD_ZENITH_GOLEM_Name: Lihzahrd Power Outage
+	WORLD_ZENITH_GOLEM_Description: Defeat Golem on the Zenith seed for the first time.
+	WORLD_ZENITH_EMPRESS_OF_LIGHT_Name: Hallow Knight
+	WORLD_ZENITH_EMPRESS_OF_LIGHT_Description: Defeat Empress of Light on the Zenith seed for the first time.
+	WORLD_ZENITH_DUKE_FISHRON_Name: Truffle Worm
+	WORLD_ZENITH_DUKE_FISHRON_Description: Defeat Duke Fishron on the Zenith seed for the first time.
+	WORLD_ZENITH_LUNATIC_CULTIST_Name: Repeating the Cycle
+	WORLD_ZENITH_LUNATIC_CULTIST_Description: Defeat Lunatic Cultist on the Zenith seed for the first time.
+	WORLD_ZENITH_MOON_LORD_Name: Celestial Sigil
+	WORLD_ZENITH_MOON_LORD_Description: Defeat Moon Lord on the Zenith seed for the first time.
+	WORLD_ZENITH_MOURNING_WOOD_Name: Barking up the Wrong Tree
+	WORLD_ZENITH_MOURNING_WOOD_Description: Defeat Mourning Wood on the Zenith seed for the first time.
+	WORLD_ZENITH_PUMPKING_Name: Just a Jack-O’-Lantern
+	WORLD_ZENITH_PUMPKING_Description: Defeat Pumpking on the Zenith seed for the first time.
+	WORLD_ZENITH_EVERSCREAM_Name: Fragile Ornaments
+	WORLD_ZENITH_EVERSCREAM_Description: Defeat Everscream on the Zenith seed for the first time.
+	WORLD_ZENITH_SANTA-NK1_Name: Time for Maintenance
+	WORLD_ZENITH_SANTA-NK1_Description: Defeat Santa-NK1 on the Zenith seed for the first time.
+	WORLD_ZENITH_ICE_QUEEN_Name: Cold, Dead Hands
+	WORLD_ZENITH_ICE_QUEEN_Description: Defeat Ice Queen on the Zenith seed for the first time.
+	WORLD_ZENITH_DARK_MAGE_T3_Name: Lost Etherian Magic
+	WORLD_ZENITH_DARK_MAGE_T3_Description: Defeat Dark Mage (Tier 3) on the Zenith seed for the first time.
+	WORLD_ZENITH_OGRE_T3_Name: Get Out Me Swamp
+	WORLD_ZENITH_OGRE_T3_Description: Defeat Ogre (Tier 3) on the Zenith seed for the first time.
+	WORLD_ZENITH_BETSY_Name: Dragon Slayer
+	WORLD_ZENITH_BETSY_Description: Defeat Betsy on the Zenith seed for the first time.
+	WORLD_ZENITH_FLYING_DUTCHMAN_Name: Cannons Away!
+	WORLD_ZENITH_FLYING_DUTCHMAN_Description: Defeat Flying Dutchman on the Zenith seed for the first time.
+	WORLD_ZENITH_MARTIAN_SAUCER_Name: Take Me to Your Leader
+	WORLD_ZENITH_MARTIAN_SAUCER_Description: Defeat Martian Saucer on the Zenith seed for the first time.
 	WORLD_SEED_MOON_LORD_LEGS_Name: These Might Be Steve’s
 	WORLD_SEED_MOON_LORD_LEGS_Description: Obtain some Moon Lord Legs.
 	WORLD_SEED_RED_POTION_BAD_Name: You Are Not Worthy
 	WORLD_SEED_RED_POTION_BAD_Description: Drink a Red Potion while not in a For the Worthy world.
 	WORLD_SEED_RED_POTION_GOOD_Name: You Are Worthy
 	WORLD_SEED_RED_POTION_GOOD_Description: Drink a Red Potion while in a For The Worthy world.
-	WORLD_SEED_WAFFLES_IRON_Name: It's Waffle Time!
-	WORLD_SEED_WAFFLES_IRON_Description: Obtain Waffle's Iron from Mechdusa.
 }

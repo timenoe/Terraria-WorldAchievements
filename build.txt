@@ -1,4 +1,4 @@
 displayName = World Achievements
 author = timenoe
-version = 0.1
+version = 1.0
 buildIgnore = *.pdn
