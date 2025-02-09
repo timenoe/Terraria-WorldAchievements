@@ -2,10 +2,12 @@
 
 Terraria tModLoader mod that adds achievements for world modes/special seeds to the in-game list.
 
-Rules:
-- No Celebrationmk10 Seed
+## Rules
 - No Journey Mode
+- No Celebrationmk10 Seed
 
+## In-Game Restrictions
 The use of certain items is blocked based on the current world progression (e.g. you can't use post-Moon Lord items before defeating Moon Lord, etc.).
 
+## Contribute
 Contribute language localization here: https://github.com/timenoe/Terraria-WorldAchievements

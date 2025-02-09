@@ -2,3 +2,4 @@ displayName = World Achievements
 author = timenoe
 version = 1.0
 buildIgnore = *.pdn
+side = Client
