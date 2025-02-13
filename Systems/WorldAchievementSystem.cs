@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using Terraria.Achievements;
 using Terraria.ID;
-using TerrariaAchievementLib.Achievements.Conditions;
 using TerrariaAchievementLib.Achievements;
+using TerrariaAchievementLib.Achievements.Conditions;
 using TerrariaAchievementLib.Systems;
 
 namespace WorldAchievements.Systems
@@ -19,8 +19,7 @@ namespace WorldAchievements.Systems
 
         protected override void RegisterAchievements()
         {
-            // Block the use of certain items based on the current world progression
-            AchProgression.SetEnabled(true);
+            AchievementProgression.Enable();
             
             ConditionReqs expertReqs = new(PlayerDiff.Classic, WorldDiff.Expert, SpecialSeed.None);
             RegisterExpertBossAchievements(expertReqs);
@@ -73,7 +72,7 @@ namespace WorldAchievements.Systems
 
             // Kill Expert Mode bosses for the first time
             foreach (var boss in ExpertBosses)
-                RegisterAchievement($"EXPERT_{boss}", NpcKillCondition.KillAny(reqs, true, AchData.DefeatBoss[boss]), AchievementCategory.Slayer);
+                RegisterAchievement($"EXPERT_{boss}", NpcKillCondition.KillAny(reqs, true, AchievementData.DefeatBoss[boss]), AchievementCategory.Slayer);
         }
 
         /// <summary>
@@ -162,7 +161,7 @@ namespace WorldAchievements.Systems
 
             // Kill Master Mode bosses for the first time
             foreach (var boss in MasterBosses)
-                RegisterAchievement($"MASTER_{boss}", NpcKillCondition.KillAny(reqs, true, AchData.DefeatBoss[boss]), AchievementCategory.Slayer);
+                RegisterAchievement($"MASTER_{boss}", NpcKillCondition.KillAny(reqs, true, AchievementData.DefeatBoss[boss]), AchievementCategory.Slayer);
         }
 
         /// <summary>
@@ -227,7 +226,7 @@ namespace WorldAchievements.Systems
 
             // Kill Legendary Mode bosses for the first time
             foreach (var boss in LegendaryBosses)
-                RegisterAchievement($"LEGENDARY_{boss}", NpcKillCondition.KillAny(reqs, true, AchData.DefeatBoss[boss]), AchievementCategory.Slayer);
+                RegisterAchievement($"LEGENDARY_{boss}", NpcKillCondition.KillAny(reqs, true, AchievementData.DefeatBoss[boss]), AchievementCategory.Slayer);
         }
 
         /// <summary>
@@ -243,7 +242,7 @@ namespace WorldAchievements.Systems
             {
                 if (boss == "MECHDUSA")
                 {
-                    List<AchCondition> conds = [];
+                    List<CustomAchievementCondition> conds = [];
                     conds.Add(NpcKillCondition.KillAny(reqs, true, [NPCID.Retinazer, NPCID.Spazmatism]));
                     conds.Add(NpcKillCondition.Kill(reqs, true, NPCID.TheDestroyer));
                     conds.Add(NpcKillCondition.Kill(reqs, true, NPCID.SkeletronPrime));
@@ -251,7 +250,7 @@ namespace WorldAchievements.Systems
                 }
                 
                 else
-                    RegisterAchievement($"ZENITH_{boss}", NpcKillCondition.KillAny(reqs, true, AchData.DefeatBoss[boss]), AchievementCategory.Slayer);
+                    RegisterAchievement($"ZENITH_{boss}", NpcKillCondition.KillAny(reqs, true, AchievementData.DefeatBoss[boss]), AchievementCategory.Slayer);
             }
         }
 
