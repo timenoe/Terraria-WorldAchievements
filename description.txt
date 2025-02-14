@@ -9,9 +9,8 @@ Adds achievements for world modes/special seeds to the in-game list.
 Achievements are stackable (e.g. earning an achievement on Legendary Mode would also earn the equivalent achievements for Expert/Master Mode). However, it is recommended to work your way up if you are a newer player.
 
 ## Credits
-timenoe - Developer, Achievement Icons Artist
-
-BahamutVoid - Design Feedback, Testing
-Cruzelion - Mod Icon Artist
-Searo - Design Feedback, Testing
-SubliminalSiren - Testing
+- timenoe - Developer, Achievement Icons Artist
+- BahamutVoid - Design Feedback, Testing
+- Cruzelion - Mod Icon Artist
+- Searo - Design Feedback, Testing
+- SubliminalSiren - Testing
