@@ -1,2 +1,5 @@
+v1.0.2
+- Actually fixed ammo bug (updated TerrariaAchievementLib submodule)
+
 v1.0.1
 - Fixed ammo bug (updated TerrariaAchievementLib submodule)
