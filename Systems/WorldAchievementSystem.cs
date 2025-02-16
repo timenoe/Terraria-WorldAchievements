@@ -19,7 +19,7 @@ namespace WorldAchievements.Systems
 
         protected override void RegisterAchievements()
         {
-            AchievementProgression.Enable();
+            AchievementProgression.Enable(ProgressionRestriction.World);
             
             ConditionReqs expertReqs = new(PlayerDiff.Classic, WorldDiff.Expert, SpecialSeed.None);
             RegisterExpertBossAchievements(expertReqs);
