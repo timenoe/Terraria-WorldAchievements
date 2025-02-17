@@ -1,3 +1,6 @@
+v1.0.4
+- Fixed potential wiping of progress when earning achievements without this mod enabled
+
 v1.0.3
 - Fix unintended blocking of the Snowball Cannon
 - Only enforce progression on Expert or greater and special seed worlds
