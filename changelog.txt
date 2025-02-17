@@ -1,3 +1,6 @@
+v1.0.5
+- Fixed Martian Saucer achievements
+
 v1.0.4
 - Fixed potential wiping of progress when earning achievements without this mod enabled
 
