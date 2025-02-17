@@ -1,5 +1,6 @@
 v1.0.3
-- Only enforce progression on Expert or greater worlds and special seed worlds
+- Fix unintended blocking of the Snowball Cannon
+- Only enforce progression on Expert or greater and special seed worlds
 
 v1.0.2
 - Actually fixed ammo bug (updated TerrariaAchievementLib submodule)
