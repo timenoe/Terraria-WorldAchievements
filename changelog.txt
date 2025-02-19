@@ -1,3 +1,6 @@
+v1.0.7
+- Fixed 3 achievement titles
+
 v1.0.6
 - Fixed enforced progression for the Remix seed
 - Fixed unintended blocking of the Poison Staff
