@@ -1,4 +1,5 @@
 v1.0.9
+- Fixed achievement icon order
 - Fixed Hallowed Headgear not being included
 
 v1.0.8
