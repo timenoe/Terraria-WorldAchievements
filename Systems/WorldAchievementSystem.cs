@@ -241,13 +241,7 @@ namespace WorldAchievements.Systems
             foreach (var boss in ZenithBosses)
             {
                 if (boss == "MECHDUSA")
-                {
-                    List<CustomAchievementCondition> conds = [];
-                    conds.Add(NpcKillCondition.KillAny(reqs, true, [NPCID.Retinazer, NPCID.Spazmatism]));
-                    conds.Add(NpcKillCondition.Kill(reqs, true, NPCID.TheDestroyer));
-                    conds.Add(NpcKillCondition.Kill(reqs, true, NPCID.SkeletronPrime));
-                    RegisterAchievement($"ZENITH_{boss}", conds, false, AchievementCategory.Slayer);
-                }
+                    RegisterAchievement($"ZENITH_{boss}", NpcDropCondition.Drop(reqs, NPCID.None, ItemID.WaffleIron), AchievementCategory.Slayer);
                 
                 else
                     RegisterAchievement($"ZENITH_{boss}", NpcKillCondition.KillAny(reqs, true, AchievementData.DefeatBoss[boss]), AchievementCategory.Slayer);

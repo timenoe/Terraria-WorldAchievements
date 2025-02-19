@@ -1,3 +1,8 @@
+v1.0.6
+- Fixed enforced progression for the Remix seed
+- Fixed unintended blocking of the Poison Staff
+- Updated Mechdusa achievement to be more stable
+
 v1.0.5
 - Fixed Martian Saucer achievements
 
