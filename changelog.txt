@@ -1,3 +1,6 @@
+v1.0.11
+- Fixed unintended blocking of certain Hardmode items in Hardmode
+
 v1.0.10
 - Unlock achievements when using Magic Storage
 
