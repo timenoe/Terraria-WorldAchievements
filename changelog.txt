@@ -1,3 +1,6 @@
+v1.0.10
+- Unlock achievements when using Magic Storage
+
 v1.0.9
 - Fixed achievement icon order
 - Fixed Hallowed Headgear not being included
