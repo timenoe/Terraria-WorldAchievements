@@ -38,6 +38,8 @@ namespace WorldAchievements.Systems
             RegisterZenithBossAchievements(zenithReqs);
 
             RegisterMiscSeedItemAchievements();
+
+            RegisterManualAchievement("ZENITH_MINIGAME", AchievementCategory.Challenger);
         }
 
         /// <summary>
