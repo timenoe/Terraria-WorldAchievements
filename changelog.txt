@@ -1,3 +1,6 @@
+v1.0.14
+- Tweaked enforced progression
+
 v1.0.13
 - Fixed unintended blocking of the UFO
 
