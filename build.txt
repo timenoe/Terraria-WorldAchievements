@@ -1,6 +1,6 @@
 displayName = World Achievements
 author = timenoe
-version = 1.0.15
+version = 1.0.16
 homepage = https://github.com/timenoe/Terraria-WorldAchievements
 buildIgnore = *.pdn
 side = Both
