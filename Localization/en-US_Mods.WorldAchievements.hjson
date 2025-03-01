@@ -1,0 +1,6 @@
+Buffs: {
+	HardestcoreBuff: {
+		DisplayName: Hardestcore
+		Description: Hardestcore difficulty is enabled!
+	}
+}
