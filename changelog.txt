@@ -3,7 +3,7 @@ v1.0.16
 
 v1.0.15
 - Added netcode to unlock item achievements in multiplayer
-- Remove requirement to defeat Dark Mage and Ogre for the first time
+- Removed requirement to defeat Dark Mage and Ogre for the first time
 
 v1.0.14
 - Tweaked enforced progression
@@ -42,11 +42,11 @@ v1.0.4
 - Fixed potential wiping of progress when earning achievements without this mod enabled
 
 v1.0.3
-- Fix unintended blocking of the Snowball Cannon
+- Fixed unintended blocking of the Snowball Cannon
 - Only enforce progression on Expert or greater and special seed worlds
 
 v1.0.2
-- Actually fixed ammo bug (updated TerrariaAchievementLib submodule)
+- Actually fixed ammo bug
 
 v1.0.1
-- Fixed ammo bug (updated TerrariaAchievementLib submodule)
+- Fixed ammo bug

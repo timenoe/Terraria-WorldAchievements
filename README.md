@@ -2,7 +2,7 @@
 
 [![Release](https://img.shields.io/github/v/release/timenoe/Terraria-WorldAchievements?style=flat-square)](https://github.com/timenoe/Terraria-WorldAchievements/releases/latest)
 [![Downloads](https://img.shields.io/steam/downloads/3427410090?style=flat-square)](https://steamcommunity.com/sharedfiles/filedetails/?id=3427410090)
-[![File Size](https://img.shields.io/steam/size/3427410090?style=flat-square)](https://steamcommunity.com/sharedfiles/filedetails/?id=3427410090)
+[![Size](https://img.shields.io/steam/size/3427410090?style=flat-square)](https://steamcommunity.com/sharedfiles/filedetails/?id=3427410090)
 [![Issues](https://img.shields.io/github/issues/timenoe/Terraria-WorldAchievements?style=flat-square)](https://github.com/timenoe/Terraria-WorldAchievements/issues)
 [![License](https://img.shields.io/github/license/timenoe/Terraria-WorldAchievements?style=flat-square)](https://github.com/timenoe/Terraria-WorldAchievements/blob/master/LICENSE.md)
 
