@@ -1,3 +1,7 @@
+v1.0.15
+- Added netcode to unlock item achievements in multiplayer
+- Remove requirement to defeat Dark Mage and Ogre for the first time
+
 v1.0.14
 - Tweaked enforced progression
 

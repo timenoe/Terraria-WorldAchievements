@@ -124,9 +124,9 @@ Achievements: {
 	WORLD_MASTER_ICE_QUEEN_Name: Ice Queen Relic
 	WORLD_MASTER_ICE_QUEEN_Description: Defeat Ice Queen on Master Mode for the first time.
 	WORLD_MASTER_DARK_MAGE_T3_Name: Dark Mage Relic
-	WORLD_MASTER_DARK_MAGE_T3_Description: Defeat Dark Mage (Tier 3) on Master Mode for the first time.
+	WORLD_MASTER_DARK_MAGE_T3_Description: Defeat Dark Mage (Tier 3) on Master Mode.
 	WORLD_MASTER_OGRE_T3_Name: Ogre Relic
-	WORLD_MASTER_OGRE_T3_Description: Defeat Ogre (Tier 3) on Master Mode for the first time.
+	WORLD_MASTER_OGRE_T3_Description: Defeat Ogre (Tier 3) on Master Mode.
 	WORLD_MASTER_BETSY_Name: Betsy Relic
 	WORLD_MASTER_BETSY_Description: Defeat Betsy on Master Mode for the first time.
 	WORLD_MASTER_FLYING_DUTCHMAN_Name: Flying Dutchman Relic
@@ -238,9 +238,9 @@ Achievements: {
 	WORLD_LEGENDARY_ICE_QUEEN_Name: Frostbitten Throne
 	WORLD_LEGENDARY_ICE_QUEEN_Description: Defeat Ice Queen on Legendary Mode for the first time.
 	WORLD_LEGENDARY_DARK_MAGE_T3_Name: Master of the Dark Arts
-	WORLD_LEGENDARY_DARK_MAGE_T3_Description: Defeat Dark Mage (Tier 3) on Legendary Mode for the first time.
+	WORLD_LEGENDARY_DARK_MAGE_T3_Description: Defeat Dark Mage (Tier 3) on Legendary Mode.
 	WORLD_LEGENDARY_OGRE_T3_Name: Ogre Overload
-	WORLD_LEGENDARY_OGRE_T3_Description: Defeat Ogre (Tier 3) on Legendary Mode for the first time.
+	WORLD_LEGENDARY_OGRE_T3_Description: Defeat Ogre (Tier 3) on Legendary Mode.
 	WORLD_LEGENDARY_BETSY_Name: Dungeon Defender
 	WORLD_LEGENDARY_BETSY_Description: Defeat Betsy on Legendary Mode for the first time.
 	WORLD_LEGENDARY_FLYING_DUTCHMAN_Name: Break the Curse
@@ -290,9 +290,9 @@ Achievements: {
 	WORLD_ZENITH_ICE_QUEEN_Name: Cold, Dead Hands
 	WORLD_ZENITH_ICE_QUEEN_Description: Defeat Ice Queen on the Zenith seed for the first time.
 	WORLD_ZENITH_DARK_MAGE_T3_Name: Lost Etherian Magic
-	WORLD_ZENITH_DARK_MAGE_T3_Description: Defeat Dark Mage (Tier 3) on the Zenith seed for the first time.
+	WORLD_ZENITH_DARK_MAGE_T3_Description: Defeat Dark Mage (Tier 3) on the Zenith seed.
 	WORLD_ZENITH_OGRE_T3_Name: Get Out Me Swamp
-	WORLD_ZENITH_OGRE_T3_Description: Defeat Ogre (Tier 3) on the Zenith seed for the first time.
+	WORLD_ZENITH_OGRE_T3_Description: Defeat Ogre (Tier 3) on the Zenith seed.
 	WORLD_ZENITH_BETSY_Name: Dragon Slayer
 	WORLD_ZENITH_BETSY_Description: Defeat Betsy on the Zenith seed for the first time.
 	WORLD_ZENITH_FLYING_DUTCHMAN_Name: Cannons Away!

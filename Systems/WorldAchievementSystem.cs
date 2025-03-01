@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using Terraria.Achievements;
 using Terraria.ID;
 using TerrariaAchievementLib.Achievements;
@@ -12,6 +13,11 @@ namespace WorldAchievements.Systems
     /// </summary>
     public class WorldAchievementSystem : AchievementSystem
     {
+        /// <summary>
+        /// Bosses that are tiered with one combined bestiary entry
+        /// </summary>
+        private readonly string[] _tieredBosses = ["DARK_MAGE_T3", "OGRE_T3"];
+        
         protected override string Identifier { get => "WORLD"; }
 
         protected override List<string> TexturePaths { get => ["WorldAchievements/Assets/Achievements-1", "WorldAchievements/Assets/Achievements-2"]; }
@@ -161,7 +167,13 @@ namespace WorldAchievements.Systems
 
             // Kill Master Mode bosses for the first time
             foreach (var boss in MasterBosses)
-                RegisterAchievement($"MASTER_{boss}", NpcKillCondition.KillAny(reqs, true, AchievementData.DefeatBoss[boss]), AchievementCategory.Slayer);
+            {
+                bool first = true;
+                if (_tieredBosses.Contains(boss))
+                    first = false;
+
+                RegisterAchievement($"MASTER_{boss}", NpcKillCondition.KillAny(reqs, first, AchievementData.DefeatBoss[boss]), AchievementCategory.Slayer);
+            }
         }
 
         /// <summary>
@@ -226,7 +238,13 @@ namespace WorldAchievements.Systems
 
             // Kill Legendary Mode bosses for the first time
             foreach (var boss in LegendaryBosses)
-                RegisterAchievement($"LEGENDARY_{boss}", NpcKillCondition.KillAny(reqs, true, AchievementData.DefeatBoss[boss]), AchievementCategory.Slayer);
+            {
+                bool first = true;
+                if (_tieredBosses.Contains(boss))
+                    first = false;
+
+                RegisterAchievement($"LEGENDARY_{boss}", NpcKillCondition.KillAny(reqs, first, AchievementData.DefeatBoss[boss]), AchievementCategory.Slayer);
+            }
         }
 
         /// <summary>
@@ -242,9 +260,15 @@ namespace WorldAchievements.Systems
             {
                 if (boss == "MECHDUSA")
                     RegisterAchievement($"ZENITH_{boss}", NpcDropCondition.Drop(reqs, NPCID.None, ItemID.WaffleIron), AchievementCategory.Slayer);
-                
+
                 else
-                    RegisterAchievement($"ZENITH_{boss}", NpcKillCondition.KillAny(reqs, true, AchievementData.DefeatBoss[boss]), AchievementCategory.Slayer);
+                {
+                    bool first = true;
+                    if (_tieredBosses.Contains(boss))
+                        first = false;
+
+                    RegisterAchievement($"ZENITH_{boss}", NpcKillCondition.KillAny(reqs, first, AchievementData.DefeatBoss[boss]), AchievementCategory.Slayer);
+                }
             }
         }
 
