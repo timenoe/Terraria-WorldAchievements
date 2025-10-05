@@ -2,6 +2,8 @@
 
 Terraria tModLoader mod that adds achievements for world modes/special seeds to the in-game list.
 
+[b][u]Notice[/u][/b]
+The upgrade from v1.0.16 to v1.1.0 resulted in a save file imcompatability for custom achievements. Download [url=https://github.com/timenoe/Terraria-RetroAchievements-Save-Converter/releases/download/v1/save_converter.zip]this GUI[/url] to convert your save file to the new format and keep your progress.
 
 [b][u]Restrictions[/u][/b]
 [list]

@@ -8,6 +8,9 @@
 
 Terraria tModLoader mod that adds achievements for world modes/special seeds to the in-game list.
 
+## Notice
+The upgrade from v1.0.16 to v1.1.0 resulted in a save file imcompatability for custom achievements. Download [this GUI](https://github.com/timenoe/Terraria-RetroAchievements-Save-Converter/releases/download/v1/save_converter.zip) to convert your save file to the new format to keep progress.
+
 ## Restrictions
 - Enforced Progression (e.g. you can't use post-Moon Lord items before defeating Moon Lord, etc.)
 - No Journey Mode
