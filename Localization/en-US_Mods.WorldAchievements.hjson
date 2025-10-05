@@ -1,3 +1,770 @@
+Achievements: {
+	ExpertKingSlimeAchievement: {
+		FriendlyName: Royal Gel
+		Description: Defeat King Slime on Expert Mode for the first time.
+	}
+
+	ExpertEyeOfCthulhuAchievement: {
+		FriendlyName: Shield of Cthulhu
+		Description: Defeat Eye of Cthulhu on Expert Mode for the first time.
+	}
+
+	ExpertEaterOfWorldsAchievement: {
+		FriendlyName: Worm Scarf
+		Description: Defeat Eater of Worlds on Expert Mode for the first time.
+	}
+
+	ExpertBrainOfCthulhuAchievement: {
+		FriendlyName: Brain of Confusion
+		Description: Defeat Brain of Cthulhu on Expert Mode for the first time.
+	}
+
+	ExpertQueenBeeAchievement: {
+		FriendlyName: Hive Pack
+		Description: Defeat Queen Bee on Expert Mode for the first time.
+	}
+
+	ExpertSkeletronAchievement: {
+		FriendlyName: Bone Glove
+		Description: Defeat Skeletron on Expert Mode for the first time.
+	}
+
+	ExpertDeerclopsAchievement: {
+		FriendlyName: Bone Helm
+		Description: Defeat Deerclops on Expert Mode for the first time.
+	}
+
+	ExpertWallOfFleshAchievement: {
+		FriendlyName: Demon Heart
+		Description: Defeat Wall of Flesh on Expert Mode for the first time.
+	}
+
+	ExpertQueenSlimeAchievement: {
+		FriendlyName: Volatile Gelatin
+		Description: Defeat Queen Slime on Expert Mode for the first time.
+	}
+
+	ExpertTwinsAchievement: {
+		FriendlyName: Mechanical Wheel
+		Description: Defeat The Twins on Expert Mode for the first time.
+	}
+
+	ExpertDestroyerAchievement: {
+		FriendlyName: Mechanical Wagon
+		Description: Defeat The Destroyer on Expert Mode for the first time.
+	}
+
+	ExpertSkeletronPrimeAchievement: {
+		FriendlyName: Mechanical Battery
+		Description: Defeat Skeletron Prime on Expert Mode for the first time.
+	}
+
+	ExpertPlanteraAchievement: {
+		FriendlyName: Spore Sac
+		Description: Defeat Plantera on Expert Mode for the first time.
+	}
+
+	ExpertGolemAchievement: {
+		FriendlyName: Shiny Stone
+		Description: Defeat Golem on Expert Mode for the first time.
+	}
+
+	ExpertEmpressOfLightAchievement: {
+		FriendlyName: Soaring Insignia
+		Description: Defeat Empress of Light on Expert Mode for the first time.
+	}
+
+	ExpertDukeFishronAchievement: {
+		FriendlyName: Shrimpy Truffle
+		Description: Defeat Duke Fishron on Expert Mode for the first time.
+	}
+
+	ExpertMoonLordAchievement: {
+		FriendlyName: Gravity Globe
+		Description: Defeat Moon Lord on Expert Mode for the first time.
+	}
+
+	ExpertBetsyAchievement: {
+		FriendlyName: Old One's Treasure
+		Description: Defeat Betsy on Expert Mode for the first time.
+	}
+
+	ExpertSetAaronAchievement: {
+		FriendlyName: Stay Grounded
+		Description: Obtain all 3 Aaron's set pieces.
+	}
+
+	ExpertSetArkhalisAchievement: {
+		FriendlyName: Off the Grid
+		Description: Obtain all 5 Arkhalis' set pieces.
+	}
+
+	ExpertSetCenxAchievement: {
+		FriendlyName: Queen of Terraria
+		Description: Obtain all 4 Cenx's set pieces.
+	}
+
+	ExpertSetCenxDressAchievement: {
+		FriendlyName: Alter Ego
+		Description: Obtain all 4 Cenx's Dress set pieces.
+	}
+
+	ExpertSetCrownoAchievement: {
+		FriendlyName: Master of Dark Skies
+		Description: Obtain all 4 Crowno's set pieces.
+	}
+
+	ExpertSetDTownAchievement: {
+		FriendlyName: Strictly Business
+		Description: Obtain all 4 D-Town's set pieces.
+	}
+
+	ExpertSetJimAchievement: {
+		FriendlyName: Caped Leggings
+		Description: Obtain all 4 Jim's set pieces.
+	}
+
+	ExpertSetLazureAchievement: {
+		FriendlyName: Ride the Lightning
+		Description: Obtain all 4 Lazure's set pieces.
+	}
+
+	ExpertSetLeinforAchievement: {
+		FriendlyName: Bringing Sexy Back
+		Description: Obtain all 5 Leinfor's set pieces.
+	}
+
+	ExpertSetLokiAchievement: {
+		FriendlyName: The Art of War
+		Description: Obtain all 5 Loki's set pieces.
+	}
+
+	ExpertSetRedAchievement: {
+		FriendlyName: Dark Knight
+		Description: Obtain all 5 Red's set pieces.
+	}
+
+	ExpertSetSkiphsAchievement: {
+		FriendlyName: Polar Plunge
+		Description: Obtain all 5 Skiphs' set pieces.
+	}
+
+	ExpertSetWillAchievement: {
+		FriendlyName: Charging In
+		Description: Obtain all 4 Will's set pieces.
+	}
+
+	ExpertSetYoraiAchievement: {
+		FriendlyName: Menacing Presence
+		Description: Obtain all 5 Yoraiz0r's set pieces.
+	}
+
+	ExpertSetGroxTheGreatAchievement: {
+		FriendlyName: Angry Pirate
+		Description: Obtain all 4 Grox The Great's set pieces.
+	}
+
+	ExpertSetFoodbarbarianAchievement: {
+		FriendlyName: Safety First
+		Description: Obtain all 4 FoodBarbarian's set pieces.
+	}
+
+	ExpertSetSafemanAchievement: {
+		FriendlyName: Bright Idea
+		Description: Obtain all 4 Safeman's set pieces.
+	}
+
+	ExpertSetGhostarAchievement: {
+		FriendlyName: Take the First Step
+		Description: Obtain all 4 Ghostar's set pieces.
+	}
+
+	ExpertDemonHeartAchievement: {
+		FriendlyName: Fleshy Feast
+		Description: Use a Demon Heart.
+	}
+
+	ExpertMinecartUpgradeKitAchievement: {
+		FriendlyName: Free Mechanical Cart Included!
+		Description: Use a Minecart Upgrade Kit.
+	}
+
+	ExpertWitchBroomAchievement: {
+		FriendlyName: Witching Spark of Inspiration!
+		Description: Summon a Witch's Broom.
+	}
+
+	MasterKingSlimeAchievement: {
+		FriendlyName: King Slime Relic
+		Description: Defeat King Slime on Master Mode for the first time.
+	}
+
+	MasterEyeOfCthulhuAchievement: {
+		FriendlyName: Eye of Cthulhu Relic
+		Description: Defeat Eye of Cthulhu on Master Mode for the first time.
+	}
+
+	MasterEaterOfWorldsAchievement: {
+		FriendlyName: Eater of Worlds Relic
+		Description: Defeat Eater of Worlds on Master Mode for the first time.
+	}
+
+	MasterBrainOfCthulhuAchievement: {
+		FriendlyName: Brain of Cthulhu Relic
+		Description: Defeat Brain of Cthulhu on Master Mode for the first time.
+	}
+
+	MasterQueenBeeAchievement: {
+		FriendlyName: Queen Bee Relic
+		Description: Defeat Queen Bee on Master Mode for the first time.
+	}
+
+	MasterSkeletronAchievement: {
+		FriendlyName: Skeletron Relic
+		Description: Defeat Skeletron on Master Mode for the first time.
+	}
+
+	MasterDeerclopsAchievement: {
+		FriendlyName: Deerclops Relic
+		Description: Defeat Deerclops on Master Mode for the first time.
+	}
+
+	MasterWallOfFleshAchievement: {
+		FriendlyName: Wall of Flesh Relic
+		Description: Defeat Wall of Flesh on Master Mode for the first time.
+	}
+
+	MasterQueenSlimeAchievement: {
+		FriendlyName: Queen Slime Relic
+		Description: Defeat Queen Slime on Master Mode for the first time.
+	}
+
+	MasterTwinsAchievement: {
+		FriendlyName: The Twins Relic
+		Description: Defeat The Twins on Master Mode for the first time.
+	}
+
+	MasterDestroyerAchievement: {
+		FriendlyName: The Destroyer Relic
+		Description: Defeat The Destroyer on Master Mode for the first time.
+	}
+
+	MasterSkeletronPrimeAchievement: {
+		FriendlyName: Skeletron Prime Relic
+		Description: Defeat Skeletron Prime on Master Mode for the first time.
+	}
+
+	MasterPlanteraAchievement: {
+		FriendlyName: Plantera Relic
+		Description: Defeat Plantera on Master Mode for the first time.
+	}
+
+	MasterGolemAchievement: {
+		FriendlyName: Golem Relic
+		Description: Defeat Golem on Master Mode for the first time.
+	}
+
+	MasterEmpressOfLightAchievement: {
+		FriendlyName: Empress of Light Relic
+		Description: Defeat Empress of Light on Master Mode for the first time.
+	}
+
+	MasterDukeFishronAchievement: {
+		FriendlyName: Duke Fishron Relic
+		Description: Defeat Duke Fishron on Master Mode for the first time.
+	}
+
+	MasterLunaticCultistAchievement: {
+		FriendlyName: Lunatic Cultist Relic
+		Description: Defeat Lunatic Cultist on Master Mode for the first time.
+	}
+
+	MasterMoonLordAchievement: {
+		FriendlyName: Moon Lord Relic
+		Description: Defeat Moon Lord on Master Mode for the first time.
+	}
+
+	MasterMourningWoodAchievement: {
+		FriendlyName: Mourning Wood Relic
+		Description: Defeat Mourning Wood on Master Mode for the first time.
+	}
+
+	MasterPumpkingAchievement: {
+		FriendlyName: Pumpking Relic
+		Description: Defeat Pumpking on Master Mode for the first time.
+	}
+
+	MasterEverscreamAchievement: {
+		FriendlyName: Everscream Relic
+		Description: Defeat Everscream on Master Mode for the first time.
+	}
+
+	MasterSantaNk1Achievement: {
+		FriendlyName: Santa-NK1 Relic
+		Description: Defeat Santa-NK1 on Master Mode for the first time.
+	}
+
+	MasterIceQueenAchievement: {
+		FriendlyName: Ice Queen Relic
+		Description: Defeat Ice Queen on Master Mode for the first time.
+	}
+
+	MasterDarkMageT3Achievement: {
+		FriendlyName: Dark Mage Relic
+		Description: Defeat Dark Mage (Tier 3) on Master Mode.
+	}
+
+	MasterOgreT3Achievement: {
+		FriendlyName: Ogre Relic
+		Description: Defeat Ogre (Tier 3) on Master Mode.
+	}
+
+	MasterBetsyAchievement: {
+		FriendlyName: Betsy Relic
+		Description: Defeat Betsy on Master Mode for the first time.
+	}
+
+	MasterFlyingDutchmanAchievement: {
+		FriendlyName: Flying Dutchman Relic
+		Description: Defeat Flying Dutchman on Master Mode for the first time.
+	}
+
+	MasterMartianSaucerAchievement: {
+		FriendlyName: Martian Saucer Relic
+		Description: Defeat Martian Saucer on Master Mode for the first time.
+	}
+
+	MasterPetKingSlimeAchievement: {
+		FriendlyName: Royal Delight
+		Description: Summon the Slime Prince pet.
+	}
+
+	MasterPetEyeOfCthulhuAchievement: {
+		FriendlyName: Suspicious Grinning Eye
+		Description: Summon the Suspicious Eye pet.
+	}
+
+	MasterPetEaterOfWorldsAchievement: {
+		FriendlyName: Writhing Remains
+		Description: Summon the Eater of Worms pet.
+	}
+
+	MasterPetBrainOfCthulhuAchievement: {
+		FriendlyName: Brain in a Jar
+		Description: Summon the Spider Brain pet.
+	}
+
+	MasterPetQueenBeeAchievement: {
+		FriendlyName: Sparkling Honey
+		Description: Summon the Honey Bee pet.
+	}
+
+	MasterPetSkeletronAchievement: {
+		FriendlyName: Possessed Skull
+		Description: Summon the Skeletron Jr. pet.
+	}
+
+	MasterPetDeerclopsAchievement: {
+		FriendlyName: Deerclops Eyeball
+		Description: Summon the Deerclops pet.
+	}
+
+	MasterPetWallOfFleshAchievement: {
+		FriendlyName: Goat Skull
+		Description: Summon the Goat Mount.
+	}
+
+	MasterPetQueenSlimeAchievement: {
+		FriendlyName: Regal Delicacy
+		Description: Summon the Slime Princess pet.
+	}
+
+	MasterPetTwinsAchievement: {
+		FriendlyName: Pair of Eyeballs
+		Description: Summon the Rez and Spaz pet.
+	}
+
+	MasterPetDestroyerAchievement: {
+		FriendlyName: Deactivated Probe
+		Description: Summon the Destroyer-Lite pet.
+	}
+
+	MasterPetSkeletronPrimeAchievement: {
+		FriendlyName: Robotic Skull
+		Description: Summon the Mini Prime pet.
+	}
+
+	MasterPetPlanteraAchievement: {
+		FriendlyName: Plantera Seedling
+		Description: Summon the Plantera Seedling pet.
+	}
+
+	MasterPetGolemAchievement: {
+		FriendlyName: Guardian Golem
+		Description: Summon the Toy Golem light pet.
+	}
+
+	MasterPetEmpressOfLightAchievement: {
+		FriendlyName: Jewel of Light
+		Description: Summon the Fairy Princess light pet.
+	}
+
+	MasterPetDukeFishronAchievement: {
+		FriendlyName: Pork of the Sea
+		Description: Summon the Tiny Fishron pet.
+	}
+
+	MasterPetLunaticCultistAchievement: {
+		FriendlyName: Tablet Fragment
+		Description: Summon the Phantasmal Dragon pet.
+	}
+
+	MasterPetMoonLordAchievement: {
+		FriendlyName: Piece of Moon Squid
+		Description: Summon the Moonling pet.
+	}
+
+	MasterPetMourningWoodAchievement: {
+		FriendlyName: Hexxed Branch
+		Description: Summon the Tree Mount.
+	}
+
+	MasterPetPumpkingAchievement: {
+		FriendlyName: Pumpkin Scented Candle
+		Description: Summon the Jack 'O Lantern light pet.
+	}
+
+	MasterPetEverscreamAchievement: {
+		FriendlyName: Shrub Star
+		Description: Summon the Everscream Sapling pet.
+	}
+
+	MasterPetSantaNk1Achievement: {
+		FriendlyName: Toy Tank
+		Description: Summon the Santank Mount.
+	}
+
+	MasterPetIceQueenAchievement: {
+		FriendlyName: Frozen Crown
+		Description: Summon the Ice Queen pet.
+	}
+
+	MasterPetDarkMageT3Achievement: {
+		FriendlyName: Dark Mage's Tome
+		Description: Summon the Book Mount.
+	}
+
+	MasterPetOgreT3Achievement: {
+		FriendlyName: Ogre's Club
+		Description: Summon the Baby Ogre pet.
+	}
+
+	MasterPetBetsyAchievement: {
+		FriendlyName: Betsy's Egg
+		Description: Summon the Itsy Betsy pet.
+	}
+
+	MasterPetFlyingDutchmanAchievement: {
+		FriendlyName: The Black Spot
+		Description: Summon the Pirate Ship Mount.
+	}
+
+	MasterPetMartianSaucerAchievement: {
+		FriendlyName: Cosmic Skateboard
+		Description: Summon the Alien Skater pet.
+	}
+
+	MasterResplendentDessertAchievement: {
+		FriendlyName: Dessert Duo
+		Description: Craft a Resplendent Dessert.
+	}
+
+	LegendaryKingSlimeAchievement: {
+		FriendlyName: Slimy King Slayer
+		Description: Defeat King Slime on Legendary Mode for the first time.
+	}
+
+	LegendaryEyeOfCthulhuAchievement: {
+		FriendlyName: The One Who Stares Back
+		Description: Defeat Eye of Cthulhu on Legendary Mode for the first time.
+	}
+
+	LegendaryEaterOfWorldsAchievement: {
+		FriendlyName: Worm Hole
+		Description: Defeat Eater of Worlds on Legendary Mode for the first time.
+	}
+
+	LegendaryBrainOfCthulhuAchievement: {
+		FriendlyName: Mind Over Matter
+		Description: Defeat Brain of Cthulhu on Legendary Mode for the first time.
+	}
+
+	LegendaryQueenBeeAchievement: {
+		FriendlyName: Hive Mind
+		Description: Defeat Queen Bee on Legendary Mode for the first time.
+	}
+
+	LegendarySkeletronAchievement: {
+		FriendlyName: Bone to Pick
+		Description: Defeat Skeletron on Legendary Mode for the first time.
+	}
+
+	LegendaryDeerclopsAchievement: {
+		FriendlyName: Hunting Season
+		Description: Defeat Deerclops on Legendary Mode for the first time.
+	}
+
+	LegendaryWallOfFleshAchievement: {
+		FriendlyName: Beyond the Wall
+		Description: Defeat Wall of Flesh on Legendary Mode for the first time.
+	}
+
+	LegendaryQueenSlimeAchievement: {
+		FriendlyName: Slimy Queen Slayer
+		Description: Defeat Queen Slime on Legendary Mode for the first time.
+	}
+
+	LegendaryTwinsAchievement: {
+		FriendlyName: Double Trouble
+		Description: Defeat The Twins on Legendary Mode for the first time.
+	}
+
+	LegendaryDestroyerAchievement: {
+		FriendlyName: Bane of the Mechanical Beast
+		Description: Defeat The Destroyer on Legendary Mode for the first time.
+	}
+
+	LegendarySkeletronPrimeAchievement: {
+		FriendlyName: Prime Time
+		Description: Defeat Skeletron Prime on Legendary Mode for the first time.
+	}
+
+	LegendaryPlanteraAchievement: {
+		FriendlyName: Flower of Doom
+		Description: Defeat Plantera on Legendary Mode for the first time.
+	}
+
+	LegendaryGolemAchievement: {
+		FriendlyName: Brick Breaker
+		Description: Defeat Golem on Legendary Mode for the first time.
+	}
+
+	LegendaryEmpressOfLightAchievement: {
+		FriendlyName: Radiance Extinguished
+		Description: Defeat Empress of Light on Legendary Mode for the first time.
+	}
+
+	LegendaryDukeFishronAchievement: {
+		FriendlyName: Fish Filet
+		Description: Defeat Duke Fishron on Legendary Mode for the first time.
+	}
+
+	LegendaryLunaticCultistAchievement: {
+		FriendlyName: Cult of Destruction
+		Description: Defeat Lunatic Cultist on Legendary Mode for the first time.
+	}
+
+	LegendaryMoonLordAchievement: {
+		FriendlyName: Lunar Obliterator
+		Description: Defeat Moon Lord on Legendary Mode for the first time.
+	}
+
+	LegendaryMourningWoodAchievement: {
+		FriendlyName: Wood Chipper
+		Description: Defeat Mourning Wood on Legendary Mode for the first time.
+	}
+
+	LegendaryPumpkingAchievement: {
+		FriendlyName: Fall's Final Harvest
+		Description: Defeat Pumpking on Legendary Mode for the first time.
+	}
+
+	LegendaryEverscreamAchievement: {
+		FriendlyName: Silent Night
+		Description: Defeat Everscream on Legendary Mode for the first time.
+	}
+
+	LegendarySantaNk1Achievement: {
+		FriendlyName: Krampus Has Nothing on You
+		Description: Defeat Santa-NK1 on Legendary Mode for the first time.
+	}
+
+	LegendaryIceQueenAchievement: {
+		FriendlyName: Frostbitten Throne
+		Description: Defeat Ice Queen on Legendary Mode for the first time.
+	}
+
+	LegendaryDarkMageT3Achievement: {
+		FriendlyName: Master of the Dark Arts
+		Description: Defeat Dark Mage (Tier 3) on Legendary Mode.
+	}
+
+	LegendaryOgreT3Achievement: {
+		FriendlyName: Ogre Overload
+		Description: Defeat Ogre (Tier 3) on Legendary Mode.
+	}
+
+	LegendaryBetsyAchievement: {
+		FriendlyName: Dungeon Defender
+		Description: Defeat Betsy on Legendary Mode for the first time.
+	}
+
+	LegendaryFlyingDutchmanAchievement: {
+		FriendlyName: Break the Curse
+		Description: Defeat Flying Dutchman on Legendary Mode for the first time.
+	}
+
+	LegendaryMartianSaucerAchievement: {
+		FriendlyName: To the Junkyard
+		Description: Defeat Martian Saucer on Legendary Mode for the first time.
+	}
+
+	ZenithKingSlimeAchievement: {
+		FriendlyName: Slime Crown
+		Description: Defeat King Slime on the Zenith seed for the first time.
+	}
+
+	ZenithEyeOfCthulhuAchievement: {
+		FriendlyName: Suspicious Looking Eye
+		Description: Defeat Eye of Cthulhu on the Zenith seed for the first time.
+	}
+
+	ZenithEaterOfWorldsAchievement: {
+		FriendlyName: Worm Food
+		Description: Defeat Eater of Worlds on the Zenith seed for the first time.
+	}
+
+	ZenithBrainOfCthulhuAchievement: {
+		FriendlyName: Bloody Spine
+		Description: Defeat Brain of Cthulhu on the Zenith seed for the first time.
+	}
+
+	ZenithQueenBeeAchievement: {
+		FriendlyName: Abeemination
+		Description: Defeat Queen Bee on the Zenith seed for the first time.
+	}
+
+	ZenithSkeletronAchievement: {
+		FriendlyName: Guardian's Grave
+		Description: Defeat Skeletron on the Zenith seed for the first time.
+	}
+
+	ZenithDeerclopsAchievement: {
+		FriendlyName: Deer Thing
+		Description: Defeat Deerclops on the Zenith seed for the first time.
+	}
+
+	ZenithWallOfFleshAchievement: {
+		FriendlyName: Voodoo Magic
+		Description: Defeat Wall of Flesh on the Zenith seed for the first time.
+	}
+
+	ZenithQueenSlimeAchievement: {
+		FriendlyName: Crystal Chronicles
+		Description: Defeat Queen Slime on the Zenith seed for the first time.
+	}
+
+	ZenithMechdusaAchievement: {
+		FriendlyName: It's Waffle Time!
+		Description: Defeat Mechdusa on the Zenith seed for the first time.
+	}
+
+	ZenithPlanteraAchievement: {
+		FriendlyName: Bulb Buster
+		Description: Defeat Plantera on the Zenith seed for the first time.
+	}
+
+	ZenithGolemAchievement: {
+		FriendlyName: Lihzahrd Power Outage
+		Description: Defeat Golem on the Zenith seed for the first time.
+	}
+
+	ZenithEmpressOfLightAchievement: {
+		FriendlyName: Hallow Knight
+		Description: Defeat Empress of Light on the Zenith seed for the first time.
+	}
+
+	ZenithDukeFishronAchievement: {
+		FriendlyName: Truffle Worm
+		Description: Defeat Duke Fishron on the Zenith seed for the first time.
+	}
+
+	ZenithLunaticCultistAchievement: {
+		FriendlyName: Repeating the Cycle
+		Description: Defeat Lunatic Cultist on the Zenith seed for the first time.
+	}
+
+	ZenithMoonLordAchievement: {
+		FriendlyName: Celestial Sigil
+		Description: Defeat Moon Lord on the Zenith seed for the first time.
+	}
+
+	ZenithMourningWoodAchievement: {
+		FriendlyName: Barking up the Wrong Tree
+		Description: Defeat Mourning Wood on the Zenith seed for the first time.
+	}
+
+	ZenithPumpkingAchievement: {
+		FriendlyName: Just a Jack-O�-Lantern
+		Description: Defeat Pumpking on the Zenith seed for the first time.
+	}
+
+	ZenithEverscreamAchievement: {
+		FriendlyName: Fragile Ornaments
+		Description: Defeat Everscream on the Zenith seed for the first time.
+	}
+
+	ZenithSantaNk1Achievement: {
+		FriendlyName: Time for Maintenance
+		Description: Defeat Santa-NK1 on the Zenith seed for the first time.
+	}
+
+	ZenithIceQueenAchievement: {
+		FriendlyName: Cold, Dead Hands
+		Description: Defeat Ice Queen on the Zenith seed for the first time.
+	}
+
+	ZenithDarkMageT3Achievement: {
+		FriendlyName: Lost Etherian Magic
+		Description: Defeat Dark Mage (Tier 3) on the Zenith seed.
+	}
+
+	ZenithOgreT3Achievement: {
+		FriendlyName: Get Out Me Swamp
+		Description: Defeat Ogre (Tier 3) on the Zenith seed for the first time.
+	}
+
+	ZenithBetsyAchievement: {
+		FriendlyName: Dragon Slayer
+		Description: Defeat Betsy on the Zenith seed for the first time.
+	}
+
+	ZenithFlyingDutchmanAchievement: {
+		FriendlyName: Cannons Away!
+		Description: Defeat Flying Dutchman on the Zenith seed for the first time.
+	}
+
+	ZenithMartianSaucerAchievement: {
+		FriendlyName: Take Me to Your Leader
+		Description: Defeat Martian Saucer on the Zenith seed for the first time.
+	}
+
+	SeedMoonLordLegsAchievement: {
+		FriendlyName: These Might Be Steve�s
+		Description: Obtain some Moon Lord Legs.
+	}
+
+	SeedRedPotionBadAchievement: {
+		FriendlyName: You Are Not Worthy
+		Description: Drink a Red Potion while not in a For the Worthy world.
+	}
+
+	SeedRedPotionGoodAchievement: {
+		FriendlyName: You Are Worthy
+		Description: Drink a Red Potion while in a For The Worthy world.
+	}
+}
+
 Buffs: {
 	HardestcoreBuff: {
 		DisplayName: Hardestcore
